@@ -67,7 +67,9 @@
         "Language interfaces for spatial audio"
       ],
       "bio": "Jun-Wei Yeow is a PhD candidate in the School of Electrical and Electronic Engineering at NTU Singapore. His research develops data-centric and label-efficient deep learning for sound event localization and detection (SELD), spanning spatial-audio features, model architectures, 3-D SELD with distance estimation, and language interfaces to spatial perception.",
-      "links": {},
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=iQpCWVYAAAAJ&hl=en"
+      },
       "headshot": null,
       "verified": false
     }

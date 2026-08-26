@@ -42,13 +42,9 @@
   "downloads": {
     "release_policy": "after_session",
     "release_note": "Slides will be available for download after the session.",
-    "deck_note": "Page ranges below reflect the actual provided section PDFs, which total 187 pages: Intro 1–11 (11 pp), Yeow 12–55 (44 pp), Tan 56–79 (24 pp), Gan 80–187 (108 pp). The Gan PDF is named '…80-to-191' but contains 108 pages, so the deck ends at slide 187, not 191 — pending presenter confirmation.",
+    "deck_note": "Single full-deck download only (per-presenter subset PDFs removed by presenter request). Labelled 183 slides per presenter instruction (pretext.md). Note: the provided section PDFs measured 187 pages in total (the Gan PDF holds 108 pages, not the 112 its '…80-to-191' filename implies) — confirm the final deck length before release.",
     "items": [
-      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "1–187", "file": null, "status": "pending", "gated": true},
-      {"id": "intro", "label": "Opening & Motivation", "presenter": "all", "slides": "1–11", "file": null, "status": "pending", "gated": true},
-      {"id": "yeow", "label": "Spatial Perception (SELD)", "presenter": "yeow", "slides": "12–55", "file": null, "status": "pending", "gated": true},
-      {"id": "tan", "label": "Contextual Understanding", "presenter": "tan", "slides": "56–79", "file": null, "status": "pending", "gated": true},
-      {"id": "gan", "label": "Context-Aware Action & Intelligent Sound Management", "presenter": "gan", "slides": "80–187", "file": null, "status": "pending", "gated": true}
+      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "183 slides", "file": null, "status": "pending", "gated": true}
     ]
   },
   "contact": {

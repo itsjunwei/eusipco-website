@@ -8,11 +8,11 @@
     "unresolved": 2
   },
   "sections": {
-    "1": "Spatial Perception — Data-Centric AI for Acoustics (J.-W. Yeow)",
-    "2": "Contextual Understanding (E.-L. Tan)",
-    "3": "Context-Aware Action: Active Noise Control (W.-S. Gan)",
-    "4": "Context-Aware Action: Soundscape Augmentation (W.-S. Gan)",
-    "5": "Towards Intelligent Sound Management (W.-S. Gan)"
+    "1": "Spatial Perception — Data-Centric AI for Acoustics",
+    "2": "Contextual Understanding",
+    "3": "Context-Aware Action: Active Noise Control",
+    "4": "Context-Aware Action: Soundscape Augmentation",
+    "5": "Towards Intelligent Sound Management"
   },
   "counts": {
     "total": 103,

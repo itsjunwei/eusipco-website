@@ -236,3 +236,42 @@ defaults were chosen, and what (if anything) needs the user.
 
 **Next:** Phase 6 — Draft (don't send) a review message for Prof. Gan and Joseph
 (bio accuracy, section timings, slide-release timing).
+
+---
+
+## Content update — post-deploy  ·  2026-08-26
+
+Requested changes to the live site (repo `itsjunwei/eusipco-website`, Pages URL
+`https://itsjunwei.github.io/eusipco-website/`). Scope limited to the three items below.
+
+**Done**
+1. **Jun-Wei Yeow — Scholar link.** Added `links.scholar`
+   (`https://scholar.google.com/citations?user=iQpCWVYAAAAJ&hl=en`) to `content/people.json`,
+   matching the existing `scholar` field used for Gan and Tan. Renders as a "Scholar ↗" chip.
+2. **Downloads → single entry.** Removed the four subset items (intro / yeow / tan / gan) from
+   `content/meta.json` → `downloads.items`; kept only the full-deck entry, labelled
+   "Full tutorial deck · All · 183 slides · PDF" with the after-session placeholder (no dead
+   link). Rendering is data-driven, so it now shows exactly one card. Updated `deck_note`.
+3. **Presenter labels removed from refs & outline.**
+   - References: stripped "(Presenter)" from all five `sections` titles in
+     `content/references.json` **and** in `build/build_references.py` (so a rebuild stays
+     name-free). Topic grouping unchanged.
+   - Outline: removed the presenter label from the outline display in `site/assets/js/app.js`
+     (`renderOutline`); section titles and slide ranges are kept.
+
+**Verification (380px)**
+- 1 download card; outline shows no presenter (`.who` absent); all 5 reference titles
+  name-free; Jun-Wei's Scholar link present; no horizontal overflow; no JS page errors.
+
+**Flags (not fixed — outside the three requested items)**
+- **Slide count:** labelled **183** per instruction. Measured deck is **187 pages** (Phase 4).
+  Left at 183 as requested; confirm the true length before release.
+- **`content/outline.json` `presenter` field kept** as non-displayed metadata (only the display
+  was removed). Say if you want it stripped from the data too.
+- **Pre-existing cosmetic bug:** the downloads notice text renders twice ("Slides will be
+  available for download after the session." doubled) because `renderDownloads` appends
+  `release_note` to an already-complete sentence. Present before this update; flagged rather
+  than silently fixed. One-line fix available on request.
+
+**Not done by me (no git access to the machine):** the `git commit` + `git push`. Files are
+written to the folder; the user pushes to publish, then Pages redeploys.

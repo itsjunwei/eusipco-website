@@ -90,12 +90,9 @@
 
   const chev = '<svg class="sec__chev" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  function renderOutline(outline, people) {
+  function renderOutline(outline) {
     const host = $("#outline-list");
     if (!host) return;
-    const nameById = {};
-    (people.people || []).forEach((p) => (nameById[p.id] = abbrev(p.name)));
-    const who = (id) => (id === "all" ? "All presenters" : nameById[id] || id);
 
     host.innerHTML = outline.sections.map((s, i) => {
       const framing = s.kind === "framing";
@@ -107,7 +104,7 @@
         <summary>
           <span class="sec__no${framing ? " sec__no--framing" : ""}">${esc(s.number)}</span>
           <span class="sec__title">${esc(s.title)}</span>
-          <span class="sec__meta"><span class="who">${esc(who(s.presenter))}</span><span>Slides ${esc(s.slides)}</span></span>
+          <span class="sec__meta"><span>Slides ${esc(s.slides)}</span></span>
           ${chev}
         </summary>
         <div class="sec__body">
@@ -234,7 +231,7 @@
       renderAbstract(meta);
       renderOutcomes(meta);
       renderPeople(people);
-      renderOutline(outline, people);
+      renderOutline(outline);
       renderDownloads(meta, people);
       renderReferences(refs);
       renderContact(meta);
