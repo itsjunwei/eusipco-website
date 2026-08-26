@@ -1,0 +1,59 @@
+{
+  "schema": "meta/v1",
+  "note": "Site-level metadata. Abstract and learning outcomes are drafted from the tutorial materials and marked draft:true pending presenter confirmation (Phase 6). Location/room is a placeholder.",
+  "tutorial": {
+    "title": "Environmental Acoustic Intelligence",
+    "subtitle": "From Acoustic Perception towards Context-Aware Sound Intervention",
+    "tagline": "Hear → Understand → Reason → Act",
+    "arc": "Perception → Contextual Understanding → Context-Aware Action → Purposeful Sound Intervention"
+  },
+  "event": {
+    "conference": "EUSIPCO 2026",
+    "conference_long": "33rd European Signal Processing Conference",
+    "tutorial_number": "Tutorial #2",
+    "date": "31 August 2026",
+    "date_iso": "2026-08-31",
+    "location": null,
+    "room": null,
+    "location_placeholder": "Room/track to be confirmed"
+  },
+  "presenters": ["gan", "tan", "yeow"],
+  "presenters_line": "Prof. Woon-Seng Gan · Dr. Ee-Leng Tan · Mr. Jun-Wei Yeow (NTU Singapore)",
+  "lab": {
+    "name": "Smart Nation TRANS Lab",
+    "institution": "Nanyang Technological University (NTU), Singapore",
+    "school": "School of Electrical and Electronic Engineering"
+  },
+  "abstract": {
+    "draft": true,
+    "text": "Cities are becoming instrumented with microphones, yet turning raw urban sound into useful, context-aware action remains hard: sources overlap, labels are scarce, and decisions must be made in real time. This tutorial presents a unified view of environmental acoustic intelligence organised around a four-stage arc — hear, understand, reason, and act. It begins with spatial perception through sound event localization and detection (SELD), including the supervised pipeline, label-efficient and data-centric learning, and emerging language interfaces to spatial audio. It then moves from perception to contextual understanding by integrating acoustic scene classification, sound event detection, and SELD. Building on this context, it surveys context-aware sound intervention: AI-driven active noise control, positive soundscape augmentation, and intelligent sound management for hearables. The tutorial closes with a capability ladder for active sound intervention and a unified framework linking fast perception–action control with slower intelligence and adaptation."
+  },
+  "learning_outcomes": {
+    "draft": true,
+    "items": [
+      "Explain sound event localization and detection (SELD) and why detection and localization must be learned jointly.",
+      "Compare the design choices in a modern supervised SELD pipeline: input formats, spatial features, neural backbones, and output representations.",
+      "Identify label-efficient and data-centric strategies — synthetic generation, spatial self-supervision, and audio-visual correspondence — for scaling acoustic supervision.",
+      "Describe how acoustic scene classification, sound event detection, and SELD combine into context-aware understanding.",
+      "Survey AI approaches to active noise control across the challenges of nonlinearity, slow adaptation, path variation, and generalization.",
+      "Discuss soundscape augmentation and intelligent sound management for hearables as forms of purposeful, context-aware sound intervention."
+    ]
+  },
+  "downloads": {
+    "release_policy": "after_session",
+    "release_note": "Slides will be available for download after the session.",
+    "deck_note": "Page ranges below reflect the actual provided section PDFs, which total 187 pages: Intro 1–11 (11 pp), Yeow 12–55 (44 pp), Tan 56–79 (24 pp), Gan 80–187 (108 pp). The Gan PDF is named '…80-to-191' but contains 108 pages, so the deck ends at slide 187, not 191 — pending presenter confirmation.",
+    "items": [
+      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "1–187", "file": null, "status": "pending", "gated": true},
+      {"id": "intro", "label": "Opening & Motivation", "presenter": "all", "slides": "1–11", "file": null, "status": "pending", "gated": true},
+      {"id": "yeow", "label": "Spatial Perception (SELD)", "presenter": "yeow", "slides": "12–55", "file": null, "status": "pending", "gated": true},
+      {"id": "tan", "label": "Contextual Understanding", "presenter": "tan", "slides": "56–79", "file": null, "status": "pending", "gated": true},
+      {"id": "gan", "label": "Context-Aware Action & Intelligent Sound Management", "presenter": "gan", "slides": "80–187", "file": null, "status": "pending", "gated": true}
+    ]
+  },
+  "contact": {
+    "email": null,
+    "qr": null
+  },
+  "last_updated": "2026-08-26"
+}

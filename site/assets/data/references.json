@@ -1,0 +1,2168 @@
+{
+  "schema": "references/v1",
+  "citation_style": "IEEE",
+  "note": "Primary literature only. verification: 'web' = title/venue/year corroborated by an independent source during Phase 2; 'source-doi' = DOI/arXiv taken from the presenters' own curated publication lists (resolvable, not independently re-checked); 'unresolved' = no stable identifier found (batched for the user). Identifiers are never invented — only those found in a source list or confirmed on the web.",
+  "verification_counts": {
+    "web": 41,
+    "source_doi": 60,
+    "unresolved": 2
+  },
+  "sections": {
+    "1": "Spatial Perception — Data-Centric AI for Acoustics (J.-W. Yeow)",
+    "2": "Contextual Understanding (E.-L. Tan)",
+    "3": "Context-Aware Action: Active Noise Control (W.-S. Gan)",
+    "4": "Context-Aware Action: Soundscape Augmentation (W.-S. Gan)",
+    "5": "Towards Intelligent Sound Management (W.-S. Gan)"
+  },
+  "counts": {
+    "total": 103,
+    "by_section": {
+      "1": 35,
+      "2": 14,
+      "3": 34,
+      "4": 17,
+      "5": 4
+    }
+  },
+  "references": [
+    {
+      "authors": "E.-L. Tan, F. A. Karnapi, L. J. Ng, K. Ooi, and W.-S. Gan",
+      "title": "Extracting urban sound information for residential areas in smart cities using an end-to-end IoT system",
+      "venue": "IEEE Internet of Things Journal",
+      "info": "vol. 8, no. 18, pp. 14308–14321",
+      "year": 2021,
+      "type": "journal",
+      "id": "s1-01",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://ieeexplore.ieee.org/document/9386249",
+      "ieee": "E.-L. Tan, F. A. Karnapi, L. J. Ng, K. Ooi, and W.-S. Gan, \"Extracting urban sound information for residential areas in smart cities using an end-to-end IoT system,\" *IEEE Internet of Things Journal*, vol. 8, no. 18, pp. 14308–14321, 2021."
+    },
+    {
+      "authors": "J.-W. Yeow, E.-L. Tan, S. Peksi, and W.-S. Gan",
+      "title": "Environmental acoustic intelligence through sound event localization and detection: A review",
+      "venue": "npj Acoustics",
+      "info": "vol. 1, art. no. 31",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1038/s44384-025-00036-3",
+      "id": "s1-02",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1038/s44384-025-00036-3",
+      "ieee": "J.-W. Yeow, E.-L. Tan, S. Peksi, and W.-S. Gan, \"Environmental acoustic intelligence through sound event localization and detection: A review,\" *npj Acoustics*, vol. 1, art. no. 31, 2025. doi: 10.1038/s44384-025-00036-3."
+    },
+    {
+      "authors": "T. N. T. Nguyen, K. N. Watcharasupat, N. K. Nguyen, D. L. Jones, and W.-S. Gan",
+      "title": "SALSA: Spatial cue-augmented log-spectrogram features for polyphonic sound event localization and detection",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 30, pp. 1749–1762",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2022.3173054",
+      "id": "s1-03",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2022.3173054",
+      "ieee": "T. N. T. Nguyen, K. N. Watcharasupat, N. K. Nguyen, D. L. Jones, and W.-S. Gan, \"SALSA: Spatial cue-augmented log-spectrogram features for polyphonic sound event localization and detection,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 30, pp. 1749–1762, 2022. doi: 10.1109/TASLP.2022.3173054."
+    },
+    {
+      "authors": "K. Shimada et al.",
+      "title": "Stereo sound event localization and detection with onscreen/offscreen classification",
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "type": "preprint",
+      "arxiv": "2507.12042",
+      "id": "s1-04",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2507.12042",
+      "ieee": "K. Shimada et al., \"Stereo sound event localization and detection with onscreen/offscreen classification,\" *arXiv preprint*, 2025. arXiv:2507.12042."
+    },
+    {
+      "authors": "T. N. T. Nguyen, D. L. Jones, K. N. Watcharasupat, H. Phan, and W.-S. Gan",
+      "title": "SALSA-Lite: A fast and effective feature for polyphonic sound event localization and detection with microphone arrays",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 716–720",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2111.08192",
+      "id": "s1-05",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2111.08192",
+      "verification": "web",
+      "verified": true,
+      "ieee": "T. N. T. Nguyen, D. L. Jones, K. N. Watcharasupat, H. Phan, and W.-S. Gan, \"SALSA-Lite: A fast and effective feature for polyphonic sound event localization and detection with microphone arrays,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 716–720, 2022. arXiv:2111.08192."
+    },
+    {
+      "authors": "S. Adavanne, A. Politis, J. Nikunen, and T. Virtanen",
+      "title": "Sound event localization and detection of overlapping sources using convolutional recurrent neural networks",
+      "venue": "IEEE Journal of Selected Topics in Signal Processing",
+      "info": "vol. 13, no. 1, pp. 34–48",
+      "year": 2019,
+      "type": "journal",
+      "url": "https://arxiv.org/abs/1807.00129",
+      "id": "s1-06",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "1807.00129",
+      "verification": "web",
+      "verified": true,
+      "ieee": "S. Adavanne, A. Politis, J. Nikunen, and T. Virtanen, \"Sound event localization and detection of overlapping sources using convolutional recurrent neural networks,\" *IEEE Journal of Selected Topics in Signal Processing*, vol. 13, no. 1, pp. 34–48, 2019. arXiv:1807.00129."
+    },
+    {
+      "authors": "Q. Wang, J. Du, H.-X. Wu, J. Pan, F. Ma, and C.-H. Lee",
+      "title": "A four-stage data augmentation approach to ResNet-Conformer based acoustic modeling for sound event localization and detection",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 31, pp. 1251–1264",
+      "year": 2023,
+      "type": "journal",
+      "url": "https://ieeexplore.ieee.org/document/10068271",
+      "id": "s1-07",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "ieee": "Q. Wang, J. Du, H.-X. Wu, J. Pan, F. Ma, and C.-H. Lee, \"A four-stage data augmentation approach to ResNet-Conformer based acoustic modeling for sound event localization and detection,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 31, pp. 1251–1264, 2023."
+    },
+    {
+      "authors": "Y. Shul and J.-W. Choi",
+      "title": "CST-Former: Transformer with channel-spectro-temporal attention for sound event localization and detection",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 8686–8690",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2312.12821",
+      "id": "s1-08",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2312.12821",
+      "verification": "web",
+      "verified": true,
+      "ieee": "Y. Shul and J.-W. Choi, \"CST-Former: Transformer with channel-spectro-temporal attention for sound event localization and detection,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 8686–8690, 2024. arXiv:2312.12821."
+    },
+    {
+      "authors": "Y. Cao, T. Iqbal, Q. Kong, F. An, W. Wang, and M. D. Plumbley",
+      "title": "An improved event-independent network for polyphonic sound event localization and detection",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 885–889",
+      "year": 2021,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2010.13092",
+      "id": "s1-09",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2010.13092",
+      "verification": "web",
+      "verified": true,
+      "ieee": "Y. Cao, T. Iqbal, Q. Kong, F. An, W. Wang, and M. D. Plumbley, \"An improved event-independent network for polyphonic sound event localization and detection,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 885–889, 2021. arXiv:2010.13092."
+    },
+    {
+      "authors": "K. Shimada, Y. Koyama, N. Takahashi, S. Takahashi, and Y. Mitsufuji",
+      "title": "ACCDOA: Activity-coupled Cartesian direction of arrival representation for sound event localization and detection",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 915–919",
+      "year": 2021,
+      "type": "conference",
+      "arxiv": "2010.15306",
+      "id": "s1-10",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2010.15306",
+      "ieee": "K. Shimada, Y. Koyama, N. Takahashi, S. Takahashi, and Y. Mitsufuji, \"ACCDOA: Activity-coupled Cartesian direction of arrival representation for sound event localization and detection,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 915–919, 2021. arXiv:2010.15306."
+    },
+    {
+      "authors": "K. Shimada, Y. Koyama, S. Takahashi, N. Takahashi, E. Tsunoo, and Y. Mitsufuji",
+      "title": "Multi-ACCDOA: Localizing and detecting overlapping sounds from the same class with auxiliary duplicating permutation invariant training",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 316–320",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2110.07124",
+      "id": "s1-11",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2110.07124",
+      "verification": "web",
+      "verified": true,
+      "ieee": "K. Shimada, Y. Koyama, S. Takahashi, N. Takahashi, E. Tsunoo, and Y. Mitsufuji, \"Multi-ACCDOA: Localizing and detecting overlapping sounds from the same class with auxiliary duplicating permutation invariant training,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 316–320, 2022. arXiv:2110.07124."
+    },
+    {
+      "authors": "D. A. Krause, A. Politis, and A. Mesaros",
+      "title": "Sound event detection and localization with distance estimation",
+      "venue": "Proc. 32nd European Signal Processing Conference (EUSIPCO)",
+      "info": "pp. 286–290",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2403.11827",
+      "id": "s1-12",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2403.11827",
+      "verification": "web",
+      "verified": true,
+      "ieee": "D. A. Krause, A. Politis, and A. Mesaros, \"Sound event detection and localization with distance estimation,\" *Proc. 32nd European Signal Processing Conference (EUSIPCO)*, pp. 286–290, 2024. arXiv:2403.11827."
+    },
+    {
+      "authors": "D. Berghi and P. J. B. Jackson",
+      "title": "Reverberation-based features for sound event localization and detection with distance estimation",
+      "venue": "IEEE Signal Processing Letters",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1109/LSP.2026.3685150",
+      "id": "s1-13",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1109/LSP.2026.3685150",
+      "ieee": "D. Berghi and P. J. B. Jackson, \"Reverberation-based features for sound event localization and detection with distance estimation,\" *IEEE Signal Processing Letters*, 2026. doi: 10.1109/LSP.2026.3685150."
+    },
+    {
+      "authors": "J.-W. Yeow, E.-L. Tan, J. Bai, S. Peksi, and W.-S. Gan",
+      "title": "Enhancing 3D sound event localization and detection with distance estimation using reverberation and spatial coherence features",
+      "venue": "IEEE Sensors Journal",
+      "info": "vol. 25, pp. 29221–29237",
+      "year": 2025,
+      "type": "journal",
+      "id": "s1-14",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "J.-W. Yeow, E.-L. Tan, J. Bai, S. Peksi, and W.-S. Gan, \"Enhancing 3D sound event localization and detection with distance estimation using reverberation and spatial coherence features,\" *IEEE Sensors Journal*, vol. 25, pp. 29221–29237, 2025."
+    },
+    {
+      "authors": "A. Politis, A. Mesaros, S. Adavanne, T. Heittola, and T. Virtanen",
+      "title": "Overview and evaluation of sound event localization and detection in DCASE 2019",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 29, pp. 684–698",
+      "year": 2021,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2020.3047233",
+      "id": "s1-15",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2020.3047233",
+      "ieee": "A. Politis, A. Mesaros, S. Adavanne, T. Heittola, and T. Virtanen, \"Overview and evaluation of sound event localization and detection in DCASE 2019,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 29, pp. 684–698, 2021. doi: 10.1109/TASLP.2020.3047233."
+    },
+    {
+      "authors": "D. Diaz-Guerra et al.",
+      "title": "Baseline models and evaluation of sound event localization and detection with distance estimation in DCASE2024 Challenge",
+      "venue": "Proc. Detection and Classification of Acoustic Scenes and Events Workshop (DCASE)",
+      "info": "Tokyo, Japan, pp. 41–45",
+      "year": 2024,
+      "type": "workshop",
+      "url": "https://dcase.community/documents/workshop2024/proceedings/DCASE2024Workshop_Diaz-Guerra_53.pdf",
+      "id": "s1-16",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "ieee": "D. Diaz-Guerra et al., \"Baseline models and evaluation of sound event localization and detection with distance estimation in DCASE2024 Challenge,\" *Proc. Detection and Classification of Acoustic Scenes and Events Workshop (DCASE)*, Tokyo, Japan, pp. 41–45, 2024."
+    },
+    {
+      "authors": "I. R. Roman, C. Ick, S. Ding, A. S. Roman, B. McFee, and J. P. Bello",
+      "title": "Spatial Scaper: A library to simulate and augment soundscapes for sound event localization and detection in realistic rooms",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2401.12238",
+      "id": "s1-17",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2401.12238",
+      "verification": "web",
+      "verified": true,
+      "ieee": "I. R. Roman, C. Ick, S. Ding, A. S. Roman, B. McFee, and J. P. Bello, \"Spatial Scaper: A library to simulate and augment soundscapes for sound event localization and detection in realistic rooms,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2024. arXiv:2401.12238."
+    },
+    {
+      "authors": "J.-W. Yeow, E.-L. Tan, S. Peksi, and W.-S. Gan",
+      "title": "MAGENTA: Magnitude and geometry-enhanced training approach for robust long-tailed sound event localization and detection",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "pp. 1–14",
+      "year": 2026,
+      "type": "journal",
+      "url": "https://arxiv.org/abs/2509.15599",
+      "id": "s1-18",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2509.15599",
+      "verification": "web",
+      "verified": true,
+      "ieee": "J.-W. Yeow, E.-L. Tan, S. Peksi, and W.-S. Gan, \"MAGENTA: Magnitude and geometry-enhanced training approach for robust long-tailed sound event localization and detection,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, pp. 1–14, 2026. arXiv:2509.15599."
+    },
+    {
+      "authors": "J. Hu, Y. Cao, M. Wu, F. Kang, F. Yang, W. Wang, M. D. Plumbley, and J. Yang",
+      "title": "PSELDNets: Pre-trained neural networks on a large-scale synthetic dataset for sound event localization and detection",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 33, pp. 2845–2860",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1109/TASLPRO.2025.3587446",
+      "id": "s1-19",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLPRO.2025.3587446",
+      "ieee": "J. Hu, Y. Cao, M. Wu, F. Kang, F. Yang, W. Wang, M. D. Plumbley, and J. Yang, \"PSELDNets: Pre-trained neural networks on a large-scale synthetic dataset for sound event localization and detection,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 33, pp. 2845–2860, 2025. doi: 10.1109/TASLPRO.2025.3587446."
+    },
+    {
+      "authors": "X. Jiang, C. Han, Y. A. Li, and N. Mesgarani",
+      "title": "Exploring self-supervised contrastive learning of spatial sound event representation",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1281–1285",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2309.15938",
+      "id": "s1-20",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2309.15938",
+      "verification": "web",
+      "verified": true,
+      "ieee": "X. Jiang, C. Han, Y. A. Li, and N. Mesgarani, \"Exploring self-supervised contrastive learning of spatial sound event representation,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1281–1285, 2024. arXiv:2309.15938."
+    },
+    {
+      "authors": "O. L. dos Santos, K. Rosero, B. Masiero, and R. de A. Lotufo",
+      "title": "w2v-SELD: A sound event localization and detection framework for self-supervised spatial audio pre-training",
+      "venue": "IEEE Access",
+      "info": "vol. 12, pp. 181553–181569",
+      "year": 2024,
+      "type": "journal",
+      "url": "https://arxiv.org/abs/2312.06907",
+      "id": "s1-21",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2312.06907",
+      "verification": "web",
+      "verified": true,
+      "ieee": "O. L. dos Santos, K. Rosero, B. Masiero, and R. de A. Lotufo, \"w2v-SELD: A sound event localization and detection framework for self-supervised spatial audio pre-training,\" *IEEE Access*, vol. 12, pp. 181553–181569, 2024. arXiv:2312.06907."
+    },
+    {
+      "authors": "Y. Nozaki, Y. Bando, and M. Onishi",
+      "title": "Source-aware spatial self-supervision for sound event localization and detection",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1–5",
+      "year": 2025,
+      "type": "conference",
+      "url": "https://ieeexplore.ieee.org/document/10890626",
+      "id": "s1-22",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "ieee": "Y. Nozaki, Y. Bando, and M. Onishi, \"Source-aware spatial self-supervision for sound event localization and detection,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1–5, 2025."
+    },
+    {
+      "authors": "P. Morgado, Y. Li, and N. Vasconcelos",
+      "title": "Learning representations from audio-visual spatial alignment",
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "info": "vol. 33, pp. 4733–4744",
+      "year": 2020,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2011.01819",
+      "id": "s1-23",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2011.01819",
+      "verification": "web",
+      "verified": true,
+      "ieee": "P. Morgado, Y. Li, and N. Vasconcelos, \"Learning representations from audio-visual spatial alignment,\" *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 33, pp. 4733–4744, 2020. arXiv:2011.01819."
+    },
+    {
+      "authors": "S. Wang, A. Politis, A. Mesaros, and T. Virtanen",
+      "title": "Self-supervised learning of audio representations from audio-visual data using spatial alignment",
+      "venue": "IEEE Journal of Selected Topics in Signal Processing",
+      "info": "vol. 16, no. 6, pp. 1467–1479",
+      "year": 2022,
+      "type": "journal",
+      "url": "https://arxiv.org/abs/2206.00970",
+      "id": "s1-24",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2206.00970",
+      "verification": "web",
+      "verified": true,
+      "ieee": "S. Wang, A. Politis, A. Mesaros, and T. Virtanen, \"Self-supervised learning of audio representations from audio-visual data using spatial alignment,\" *IEEE Journal of Selected Topics in Signal Processing*, vol. 16, no. 6, pp. 1467–1479, 2022. arXiv:2206.00970."
+    },
+    {
+      "authors": "Y. Fujita, Y. Bando, K. Imoto, M. Onishi, and K. Yoshii",
+      "title": "DOA-aware audio-visual self-supervised learning for sound event localization and detection",
+      "venue": "Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)",
+      "info": "pp. 2061–2067",
+      "year": 2023,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2410.22803",
+      "id": "s1-25",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2410.22803",
+      "verification": "web",
+      "verified": true,
+      "ieee": "Y. Fujita, Y. Bando, K. Imoto, M. Onishi, and K. Yoshii, \"DOA-aware audio-visual self-supervised learning for sound event localization and detection,\" *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, pp. 2061–2067, 2023. arXiv:2410.22803."
+    },
+    {
+      "authors": "S. Deshmukh et al.",
+      "title": "Pengi: An audio language model for audio tasks",
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "info": "vol. 36, pp. 18090–18108",
+      "year": 2023,
+      "type": "conference",
+      "arxiv": "2305.11834",
+      "id": "s1-26",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2305.11834",
+      "ieee": "S. Deshmukh et al., \"Pengi: An audio language model for audio tasks,\" *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 36, pp. 18090–18108, 2023. arXiv:2305.11834."
+    },
+    {
+      "authors": "Y. Gong, H. Luo, A. H. Liu, L. Karlinsky, and J. Glass",
+      "title": "Listen, think, and understand",
+      "venue": "Proc. 12th Int. Conf. Learning Representations (ICLR)",
+      "year": 2024,
+      "type": "conference",
+      "arxiv": "2305.10790",
+      "id": "s1-27",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2305.10790",
+      "ieee": "Y. Gong, H. Luo, A. H. Liu, L. Karlinsky, and J. Glass, \"Listen, think, and understand,\" *Proc. 12th Int. Conf. Learning Representations (ICLR)*, 2024. arXiv:2305.10790."
+    },
+    {
+      "authors": "C. Tang, W. Yu, G. Sun, X. Chen, T. Tan, W. Li, L. Lu, Z. Ma, and C. Zhang",
+      "title": "SALMONN: Towards generic hearing abilities for large language models",
+      "venue": "Proc. 12th Int. Conf. Learning Representations (ICLR)",
+      "year": 2024,
+      "type": "conference",
+      "arxiv": "2310.13289",
+      "id": "s1-28",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2310.13289",
+      "ieee": "C. Tang, W. Yu, G. Sun, X. Chen, T. Tan, W. Li, L. Lu, Z. Ma, and C. Zhang, \"SALMONN: Towards generic hearing abilities for large language models,\" *Proc. 12th Int. Conf. Learning Representations (ICLR)*, 2024. arXiv:2310.13289."
+    },
+    {
+      "authors": "Y. Chu et al.",
+      "title": "Qwen2-Audio technical report",
+      "venue": "arXiv preprint",
+      "year": 2024,
+      "type": "preprint",
+      "arxiv": "2407.10759",
+      "id": "s1-29",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2407.10759",
+      "ieee": "Y. Chu et al., \"Qwen2-Audio technical report,\" *arXiv preprint*, 2024. arXiv:2407.10759."
+    },
+    {
+      "authors": "Kimi Team et al.",
+      "title": "Kimi-Audio technical report",
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "type": "preprint",
+      "arxiv": "2504.18425",
+      "id": "s1-30",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2504.18425",
+      "ieee": "Kimi Team et al., \"Kimi-Audio technical report,\" *arXiv preprint*, 2025. arXiv:2504.18425."
+    },
+    {
+      "authors": "A. Huang et al.",
+      "title": "Step-Audio: Unified understanding and generation in intelligent speech interaction",
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "type": "preprint",
+      "arxiv": "2502.11946",
+      "id": "s1-31",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2502.11946",
+      "ieee": "A. Huang et al., \"Step-Audio: Unified understanding and generation in intelligent speech interaction,\" *arXiv preprint*, 2025. arXiv:2502.11946."
+    },
+    {
+      "authors": "K. Shimada et al.",
+      "title": "Open-vocabulary sound event localization and detection with joint learning of CLAP embedding and activity-coupled Cartesian DOA vector",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "year": 2025,
+      "type": "journal",
+      "url": "https://ieeexplore.ieee.org/document/11074724",
+      "id": "s1-32",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "ieee": "K. Shimada et al., \"Open-vocabulary sound event localization and detection with joint learning of CLAP embedding and activity-coupled Cartesian DOA vector,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, 2025."
+    },
+    {
+      "authors": "J. Zhao, X. Qian, Y. Xu, H. Liu, Y. Cao, D. Berghi, and W. Wang",
+      "title": "Text-queried target sound event localization",
+      "venue": "Proc. 32nd European Signal Processing Conference (EUSIPCO)",
+      "info": "pp. 261–265",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2406.16058",
+      "id": "s1-33",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2406.16058",
+      "verification": "web",
+      "verified": true,
+      "ieee": "J. Zhao, X. Qian, Y. Xu, H. Liu, Y. Cao, D. Berghi, and W. Wang, \"Text-queried target sound event localization,\" *Proc. 32nd European Signal Processing Conference (EUSIPCO)*, pp. 261–265, 2024. arXiv:2406.16058."
+    },
+    {
+      "authors": "Z. Zheng, P. Peng, Z. Ma, X. Chen, E. Choi, and D. Harwath",
+      "title": "BAT: Learning to reason about spatial sounds with large language models",
+      "venue": "Proc. 41st Int. Conf. Machine Learning (ICML)",
+      "info": "vol. 235, pp. 61454–61469",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://arxiv.org/abs/2402.01591",
+      "id": "s1-34",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "arxiv": "2402.01591",
+      "verification": "web",
+      "verified": true,
+      "ieee": "Z. Zheng, P. Peng, Z. Ma, X. Chen, E. Choi, and D. Harwath, \"BAT: Learning to reason about spatial sounds with large language models,\" *Proc. 41st Int. Conf. Machine Learning (ICML)*, vol. 235, pp. 61454–61469, 2024. arXiv:2402.01591."
+    },
+    {
+      "authors": "S. Sakshi, V. Lokegaonkar, N. Zhang, R. Duraiswami, S. Ghosh, D. Manocha, and L. Lu",
+      "title": "SPUR: A plug-and-play framework for integrating spatial audio understanding and reasoning into large audio-language models",
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "type": "preprint",
+      "arxiv": "2511.06606",
+      "id": "s1-35",
+      "section": [
+        "1"
+      ],
+      "provenance": [
+        "jw-list"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2511.06606",
+      "ieee": "S. Sakshi, V. Lokegaonkar, N. Zhang, R. Duraiswami, S. Ghosh, D. Manocha, and L. Lu, \"SPUR: A plug-and-play framework for integrating spatial audio understanding and reasoning into large audio-language models,\" *arXiv preprint*, 2025. arXiv:2511.06606."
+    },
+    {
+      "authors": "T. Heittola et al.",
+      "title": "Sound event detection and context recognition",
+      "venue": "Proc. Akustiikkapäivät",
+      "year": 2011,
+      "type": "conference",
+      "id": "s2-01",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": null,
+      "ieee": "T. Heittola et al., \"Sound event detection and context recognition,\" *Proc. Akustiikkapäivät*, 2011."
+    },
+    {
+      "authors": "T. Heittola et al.",
+      "title": "Context-dependent sound event detection",
+      "venue": "EURASIP Journal on Audio, Speech, and Music Processing",
+      "year": 2013,
+      "type": "journal",
+      "id": "s2-02",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": "10.1186/1687-4722-2013-1",
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1186/1687-4722-2013-1",
+      "ieee": "T. Heittola et al., \"Context-dependent sound event detection,\" *EURASIP Journal on Audio, Speech, and Music Processing*, 2013. doi: 10.1186/1687-4722-2013-1."
+    },
+    {
+      "authors": "T. Lu et al.",
+      "title": "Context-based environmental audio event recognition for scene understanding",
+      "venue": "Multimedia Systems",
+      "year": 2015,
+      "type": "journal",
+      "id": "s2-03",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": "10.1007/s00530-014-0424-7",
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1007/s00530-014-0424-7",
+      "ieee": "T. Lu et al., \"Context-based environmental audio event recognition for scene understanding,\" *Multimedia Systems*, 2015. doi: 10.1007/s00530-014-0424-7."
+    },
+    {
+      "authors": "H. L. Bear et al.",
+      "title": "Towards joint sound scene and polyphonic sound event recognition",
+      "venue": "Proc. Interspeech",
+      "year": 2019,
+      "type": "conference",
+      "id": "s2-04",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "1904.10408",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/1904.10408",
+      "ieee": "H. L. Bear et al., \"Towards joint sound scene and polyphonic sound event recognition,\" *Proc. Interspeech*, 2019. arXiv:1904.10408."
+    },
+    {
+      "authors": "N. Tonami et al.",
+      "title": "Joint analysis of acoustic events and scenes based on multitask learning",
+      "venue": "Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA)",
+      "year": 2019,
+      "type": "conference",
+      "id": "s2-05",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "1904.12146",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/1904.12146",
+      "ieee": "N. Tonami et al., \"Joint analysis of acoustic events and scenes based on multitask learning,\" *Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA)*, 2019. arXiv:1904.12146."
+    },
+    {
+      "authors": "N. Tonami et al.",
+      "title": "Joint analysis of sound events and acoustic scenes using multitask learning",
+      "venue": "IEICE Transactions on Information and Systems",
+      "year": 2021,
+      "type": "journal",
+      "id": "s2-06",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": "10.1587/transinf.2020EDP7036",
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://doi.org/10.1587/transinf.2020EDP7036",
+      "ieee": "N. Tonami et al., \"Joint analysis of sound events and acoustic scenes using multitask learning,\" *IEICE Transactions on Information and Systems*, 2021. doi: 10.1587/transinf.2020EDP7036."
+    },
+    {
+      "authors": "K. Imoto et al.",
+      "title": "Sound event detection by multitask learning of sound events and scenes with soft scene labels",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "year": 2020,
+      "type": "conference",
+      "id": "s2-07",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "2002.05848",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2002.05848",
+      "ieee": "K. Imoto et al., \"Sound event detection by multitask learning of sound events and scenes with soft scene labels,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2020. arXiv:2002.05848."
+    },
+    {
+      "authors": "S. Tsubaki et al.",
+      "title": "Joint analysis of acoustic scenes and sound events with weakly labeled data",
+      "venue": "Proc. Int. Workshop Acoust. Signal Enhancement (IWAENC)",
+      "year": 2022,
+      "type": "conference",
+      "id": "s2-08",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "2207.04357",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2207.04357",
+      "ieee": "S. Tsubaki et al., \"Joint analysis of acoustic scenes and sound events with weakly labeled data,\" *Proc. Int. Workshop Acoust. Signal Enhancement (IWAENC)*, 2022. arXiv:2207.04357."
+    },
+    {
+      "authors": "T. Komatsu et al.",
+      "title": "Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "year": 2020,
+      "type": "conference",
+      "id": "s2-09",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://ieeexplore.ieee.org/document/9053702",
+      "ieee": "T. Komatsu et al., \"Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2020."
+    },
+    {
+      "authors": "K. Nada et al.",
+      "title": "Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss",
+      "venue": "Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)",
+      "year": 2021,
+      "type": "conference",
+      "id": "s2-10",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://ieeexplore.ieee.org/document/9689320",
+      "ieee": "K. Nada et al., \"Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss,\" *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2021."
+    },
+    {
+      "authors": "H. Zhang et al.",
+      "title": "An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing",
+      "venue": "Applied Acoustics",
+      "year": 2024,
+      "type": "journal",
+      "id": "s2-11",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003682X24002172",
+      "ieee": "H. Zhang et al., \"An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing,\" *Applied Acoustics*, 2024."
+    },
+    {
+      "authors": "D. de Waard et al.",
+      "title": "Effects of listening to music, and of using a handheld and handsfree telephone on cycling behaviour",
+      "venue": "Transportation Research Part F: Traffic Psychology and Behaviour",
+      "year": 2011,
+      "type": "journal",
+      "id": "s2-12",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1369847811000684",
+      "ieee": "D. de Waard et al., \"Effects of listening to music, and of using a handheld and handsfree telephone on cycling behaviour,\" *Transportation Research Part F: Traffic Psychology and Behaviour*, 2011."
+    },
+    {
+      "authors": "J.-W. Yeow et al.",
+      "title": "Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system",
+      "venue": "Proc. AES Int. Conf. Headphone Technology",
+      "year": 2025,
+      "type": "conference",
+      "id": "s2-13",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "2509.14650",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2509.14650",
+      "ieee": "J.-W. Yeow et al., \"Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system,\" *Proc. AES Int. Conf. Headphone Technology*, 2025. arXiv:2509.14650."
+    },
+    {
+      "authors": "E.-L. Tan et al.",
+      "title": "Acoustic scene classification using CNN-GRU model without knowledge distillation",
+      "venue": "arXiv preprint",
+      "year": 2025,
+      "type": "preprint",
+      "id": "s2-14",
+      "section": [
+        "2"
+      ],
+      "provenance": [
+        "joseph-doc"
+      ],
+      "doi": null,
+      "arxiv": "2509.09931",
+      "verification": "web",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2509.09931",
+      "ieee": "E.-L. Tan et al., \"Acoustic scene classification using CNN-GRU model without knowledge distillation,\" *arXiv preprint*, 2025. arXiv:2509.09931."
+    },
+    {
+      "authors": "X. Su, D. Shi, B. Wu, L. Ye, and W.-S. Gan",
+      "title": "Co-forecasting of time-varying spatial-frequency map for selective fixed-filter multichannel ANC based on dynamic factor graph",
+      "venue": "IEEE Transactions on Audio, Speech and Language Processing",
+      "info": "vol. 33, pp. 2232–2243",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1109/TASLPRO.2025.3570939",
+      "id": "s3a-01",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLPRO.2025.3570939",
+      "ieee": "X. Su, D. Shi, B. Wu, L. Ye, and W.-S. Gan, \"Co-forecasting of time-varying spatial-frequency map for selective fixed-filter multichannel ANC based on dynamic factor graph,\" *IEEE Transactions on Audio, Speech and Language Processing*, vol. 33, pp. 2232–2243, 2025. doi: 10.1109/TASLPRO.2025.3570939."
+    },
+    {
+      "authors": "Z. Luo, H. Ma, B. Wang, Z. Yang, D. Shi, and W.-S. Gan",
+      "title": "A stabilized hybrid active noise control algorithm of GFANC and FxNLMS with online clustering",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 14912–14916",
+      "year": 2026,
+      "type": "conference",
+      "doi": "10.1109/ICASSP55912.2026.11460979",
+      "id": "s3a-02",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP55912.2026.11460979",
+      "ieee": "Z. Luo, H. Ma, B. Wang, Z. Yang, D. Shi, and W.-S. Gan, \"A stabilized hybrid active noise control algorithm of GFANC and FxNLMS with online clustering,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 14912–14916, 2026. doi: 10.1109/ICASSP55912.2026.11460979."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, X. Su, and W.-S. Gan",
+      "title": "Frequency-direction aware multichannel selective fixed-filter active noise control based on multi-task learning",
+      "venue": "IEEE Transactions on Audio, Speech and Language Processing",
+      "info": "vol. 33, pp. 3137–3147",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1109/TASLPRO.2025.3590289",
+      "id": "s3a-03",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLPRO.2025.3590289",
+      "ieee": "Z. Luo, D. Shi, X. Su, and W.-S. Gan, \"Frequency-direction aware multichannel selective fixed-filter active noise control based on multi-task learning,\" *IEEE Transactions on Audio, Speech and Language Processing*, vol. 33, pp. 3137–3147, 2025. doi: 10.1109/TASLPRO.2025.3590289."
+    },
+    {
+      "authors": "B. Wang, D. Shi, Z. Luo, X. Shen, J. Ji, and W.-S. Gan",
+      "title": "Transferable selective virtual sensing active noise control technique based on metric learning",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1–5",
+      "year": 2025,
+      "type": "conference",
+      "doi": "10.1109/ICASSP49660.2025.10887958",
+      "id": "s3a-04",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP49660.2025.10887958",
+      "ieee": "B. Wang, D. Shi, Z. Luo, X. Shen, J. Ji, and W.-S. Gan, \"Transferable selective virtual sensing active noise control technique based on metric learning,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1–5, 2025. doi: 10.1109/ICASSP49660.2025.10887958."
+    },
+    {
+      "authors": "X. Su, D. Shi, Z. Zhu, W.-S. Gan, and L. Ye",
+      "title": "Spatial-frequency-based selective fixed-filter algorithm for multichannel active noise control",
+      "venue": "IEEE Signal Processing Letters",
+      "info": "vol. 31, pp. 2635–2639",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1109/LSP.2024.3465889",
+      "id": "s3a-05",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/LSP.2024.3465889",
+      "ieee": "X. Su, D. Shi, Z. Zhu, W.-S. Gan, and L. Ye, \"Spatial-frequency-based selective fixed-filter algorithm for multichannel active noise control,\" *IEEE Signal Processing Letters*, vol. 31, pp. 2635–2639, 2024. doi: 10.1109/LSP.2024.3465889."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, X. Shen, and W.-S. Gan",
+      "title": "Unsupervised learning based end-to-end delayless generative fixed-filter active noise control",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 441–445",
+      "year": 2024,
+      "type": "conference",
+      "doi": "10.1109/ICASSP48485.2024.10448277",
+      "id": "s3a-06",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP48485.2024.10448277",
+      "ieee": "Z. Luo, D. Shi, X. Shen, and W.-S. Gan, \"Unsupervised learning based end-to-end delayless generative fixed-filter active noise control,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 441–445, 2024. doi: 10.1109/ICASSP48485.2024.10448277."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, W.-S. Gan, and Q. Huang",
+      "title": "Delayless generative fixed-filter active noise control based on deep learning and Bayesian filter",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 32, pp. 1048–1060",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2023.3337632",
+      "id": "s3a-07",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2023.3337632",
+      "ieee": "Z. Luo, D. Shi, W.-S. Gan, and Q. Huang, \"Delayless generative fixed-filter active noise control based on deep learning and Bayesian filter,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 32, pp. 1048–1060, 2024. doi: 10.1109/TASLP.2023.3337632."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, X. Shen, J. Ji, and W.-S. Gan",
+      "title": "GFANC-Kalman: Generative fixed-filter active noise control with CNN-Kalman filtering",
+      "venue": "IEEE Signal Processing Letters",
+      "info": "vol. 31, pp. 276–280",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1109/LSP.2023.3334695",
+      "id": "s3a-08",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/LSP.2023.3334695",
+      "ieee": "Z. Luo, D. Shi, X. Shen, J. Ji, and W.-S. Gan, \"GFANC-Kalman: Generative fixed-filter active noise control with CNN-Kalman filtering,\" *IEEE Signal Processing Letters*, vol. 31, pp. 276–280, 2024. doi: 10.1109/LSP.2023.3334695."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, X. Shen, J. Ji, and W.-S. Gan",
+      "title": "Deep generative fixed-filter active noise control",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1–5",
+      "year": 2023,
+      "type": "conference",
+      "doi": "10.1109/ICASSP49357.2023.10095205",
+      "id": "s3a-09",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP49357.2023.10095205",
+      "ieee": "Z. Luo, D. Shi, X. Shen, J. Ji, and W.-S. Gan, \"Deep generative fixed-filter active noise control,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1–5, 2023. doi: 10.1109/ICASSP49357.2023.10095205."
+    },
+    {
+      "authors": "D. Shi, W.-S. Gan, B. Lam, Z. Luo, and X. Shen",
+      "title": "Transferable latent of CNN-based selective fixed-filter active noise control",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 31, pp. 2910–2921",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2023.3261757",
+      "id": "s3a-10",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2023.3261757",
+      "ieee": "D. Shi, W.-S. Gan, B. Lam, Z. Luo, and X. Shen, \"Transferable latent of CNN-based selective fixed-filter active noise control,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 31, pp. 2910–2921, 2023. doi: 10.1109/TASLP.2023.3261757."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, and W.-S. Gan",
+      "title": "A hybrid SFANC-FxNLMS algorithm for active noise control based on deep learning",
+      "venue": "IEEE Signal Processing Letters",
+      "info": "vol. 29, pp. 1102–1106",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1109/LSP.2022.3169428",
+      "id": "s3a-11",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/LSP.2022.3169428",
+      "ieee": "Z. Luo, D. Shi, and W.-S. Gan, \"A hybrid SFANC-FxNLMS algorithm for active noise control based on deep learning,\" *IEEE Signal Processing Letters*, vol. 29, pp. 1102–1106, 2022. doi: 10.1109/LSP.2022.3169428."
+    },
+    {
+      "authors": "D. Shi, W.-S. Gan, B. Lam, and S. Wen",
+      "title": "Feedforward selective fixed-filter active noise control: Algorithm and implementation",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 28, pp. 1479–1492",
+      "year": 2020,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2020.2989582",
+      "id": "s3a-12",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2020.2989582",
+      "ieee": "D. Shi, W.-S. Gan, B. Lam, and S. Wen, \"Feedforward selective fixed-filter active noise control: Algorithm and implementation,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 28, pp. 1479–1492, 2020. doi: 10.1109/TASLP.2020.2989582."
+    },
+    {
+      "authors": "D. Y. Shi, B. Lam, and W.-S. Gan",
+      "title": "A novel selective active noise control algorithm to overcome practical implementation issue",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1130–1134",
+      "year": 2018,
+      "type": "conference",
+      "doi": "10.1109/ICASSP.2018.8461458",
+      "id": "s3a-13",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP.2018.8461458",
+      "ieee": "D. Y. Shi, B. Lam, and W.-S. Gan, \"A novel selective active noise control algorithm to overcome practical implementation issue,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1130–1134, 2018. doi: 10.1109/ICASSP.2018.8461458."
+    },
+    {
+      "authors": "D. Shi, B. Lam, K. Ooi, X. Shen, and W.-S. Gan",
+      "title": "Selective fixed-filter active noise control based on convolutional neural network",
+      "venue": "Signal Processing",
+      "info": "vol. 190, art. no. 108317",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1016/j.sigpro.2021.108317",
+      "id": "s3a-14",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.sigpro.2021.108317",
+      "ieee": "D. Shi, B. Lam, K. Ooi, X. Shen, and W.-S. Gan, \"Selective fixed-filter active noise control based on convolutional neural network,\" *Signal Processing*, vol. 190, art. no. 108317, 2022. doi: 10.1016/j.sigpro.2021.108317."
+    },
+    {
+      "authors": "B. Wang, H. Li, D. Shi, J. Ji, Z. Yang, Z. Luo, and W.-S. Gan",
+      "title": "Spatial-frequency cued generative fixed-filter active noise control based on deep learning in reverberant environments",
+      "venue": "Signal Processing",
+      "info": "vol. 247, art. no. 110682",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1016/j.sigpro.2026.110682",
+      "id": "s3a-15",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.sigpro.2026.110682",
+      "ieee": "B. Wang, H. Li, D. Shi, J. Ji, Z. Yang, Z. Luo, and W.-S. Gan, \"Spatial-frequency cued generative fixed-filter active noise control based on deep learning in reverberant environments,\" *Signal Processing*, vol. 247, art. no. 110682, 2026. doi: 10.1016/j.sigpro.2026.110682."
+    },
+    {
+      "authors": "Z. Luo, H. Ma, B. Wang, D. Shi, and W.-S. Gan",
+      "title": "Reinforcement learning-based selective fixed-filter active noise control (RL-SFANC): From theory to real-time headphone implementation",
+      "venue": "Signal Processing",
+      "info": "vol. 248, art. no. 110695",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1016/j.sigpro.2026.110695",
+      "id": "s3a-16",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.sigpro.2026.110695",
+      "ieee": "Z. Luo, H. Ma, B. Wang, D. Shi, and W.-S. Gan, \"Reinforcement learning-based selective fixed-filter active noise control (RL-SFANC): From theory to real-time headphone implementation,\" *Signal Processing*, vol. 248, art. no. 110695, 2026. doi: 10.1016/j.sigpro.2026.110695."
+    },
+    {
+      "authors": "Z. Luo, D. Shi, J. Ji, X. Shen, and W.-S. Gan",
+      "title": "Real-time implementation and explainable AI analysis of delayless CNN-based selective fixed-filter active noise control",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 214, art. no. 111364",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2024.111364",
+      "id": "s3a-17",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2024.111364",
+      "ieee": "Z. Luo, D. Shi, J. Ji, X. Shen, and W.-S. Gan, \"Real-time implementation and explainable AI analysis of delayless CNN-based selective fixed-filter active noise control,\" *Mechanical Systems and Signal Processing*, vol. 214, art. no. 111364, 2024. doi: 10.1016/j.ymssp.2024.111364."
+    },
+    {
+      "authors": "Z. Luo, J. Ji, B. Wang, D. Shi, H. Ma, and W.-S. Gan",
+      "title": "Deep learning-based generative fixed-filter active noise control: Transferability and implementation",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 238, art. no. 113207",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2025.113207",
+      "id": "s3a-18",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2025.113207",
+      "ieee": "Z. Luo, J. Ji, B. Wang, D. Shi, H. Ma, and W.-S. Gan, \"Deep learning-based generative fixed-filter active noise control: Transferability and implementation,\" *Mechanical Systems and Signal Processing*, vol. 238, art. no. 113207, 2025. doi: 10.1016/j.ymssp.2025.113207."
+    },
+    {
+      "authors": "Z. Luo, H. Ma, D. Shi, and W.-S. Gan",
+      "title": "GFANC-RL: Reinforcement learning-based generative fixed-filter active noise control",
+      "venue": "Neural Networks",
+      "info": "vol. 180, art. no. 106687",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1016/j.neunet.2024.106687",
+      "id": "s3a-19",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.neunet.2024.106687",
+      "ieee": "Z. Luo, H. Ma, D. Shi, and W.-S. Gan, \"GFANC-RL: Reinforcement learning-based generative fixed-filter active noise control,\" *Neural Networks*, vol. 180, art. no. 106687, 2024. doi: 10.1016/j.neunet.2024.106687."
+    },
+    {
+      "authors": "Y. Hou, Q. Ren, H. Zhang, A. Mitchell, F. Aletta, J. Kang, and D. Botteldooren",
+      "title": "AI-based soundscape analysis: Jointly identifying sound sources and predicting annoyance",
+      "venue": "The Journal of the Acoustical Society of America",
+      "info": "vol. 154, no. 5, pp. 3145–3157",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1121/10.0022408",
+      "id": "s3a-20",
+      "section": [
+        "3",
+        "4"
+      ],
+      "provenance": [
+        "anc-authors",
+        "asi-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1121/10.0022408",
+      "ieee": "Y. Hou, Q. Ren, H. Zhang, A. Mitchell, F. Aletta, J. Kang, and D. Botteldooren, \"AI-based soundscape analysis: Jointly identifying sound sources and predicting annoyance,\" *The Journal of the Acoustical Society of America*, vol. 154, no. 5, pp. 3145–3157, 2023. doi: 10.1121/10.0022408."
+    },
+    {
+      "authors": "D. Wu, X. Wu, and T. Qu",
+      "title": "A hybrid deep-online learning based method for active noise control in wave domain",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1301–1305",
+      "year": 2024,
+      "type": "conference",
+      "doi": "10.1109/ICASSP48485.2024.10446791",
+      "id": "s3b-01",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP48485.2024.10446791",
+      "ieee": "D. Wu, X. Wu, and T. Qu, \"A hybrid deep-online learning based method for active noise control in wave domain,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1301–1305, 2024. doi: 10.1109/ICASSP48485.2024.10446791."
+    },
+    {
+      "authors": "H. Zhang, A. Pandey, and D. L. Wang",
+      "title": "Low-latency active noise control using attentive recurrent network",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "info": "vol. 31, pp. 1114–1123",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1109/TASLP.2023.3244528",
+      "id": "s3b-02",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TASLP.2023.3244528",
+      "ieee": "H. Zhang, A. Pandey, and D. L. Wang, \"Low-latency active noise control using attentive recurrent network,\" *IEEE/ACM Transactions on Audio, Speech, and Language Processing*, vol. 31, pp. 1114–1123, 2023. doi: 10.1109/TASLP.2023.3244528."
+    },
+    {
+      "authors": "Fareedha, Vasundhara, A. Kar, and M. G. Christensen",
+      "title": "Joint deep secondary path estimation and adaptive control for active noise cancellation",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 15177–15181",
+      "year": 2026,
+      "type": "conference",
+      "doi": "10.1109/ICASSP55912.2026.11461474",
+      "id": "s3b-03",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP55912.2026.11461474",
+      "ieee": "Fareedha, Vasundhara, A. Kar, and M. G. Christensen, \"Joint deep secondary path estimation and adaptive control for active noise cancellation,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 15177–15181, 2026. doi: 10.1109/ICASSP55912.2026.11461474."
+    },
+    {
+      "authors": "C. Cheng, Z. Liu, W. Chen, X. Li, W. Liao, and C. Lu",
+      "title": "A multi-channel active noise control system using deep learning-based method to estimate secondary path and normalized-clustered control strategy for vehicle interior engine noise",
+      "venue": "Applied Acoustics",
+      "info": "vol. 228, art. no. 110263",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1016/j.apacoust.2024.110263",
+      "id": "s3b-04",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.apacoust.2024.110263",
+      "ieee": "C. Cheng, Z. Liu, W. Chen, X. Li, W. Liao, and C. Lu, \"A multi-channel active noise control system using deep learning-based method to estimate secondary path and normalized-clustered control strategy for vehicle interior engine noise,\" *Applied Acoustics*, vol. 228, art. no. 110263, 2025. doi: 10.1016/j.apacoust.2024.110263."
+    },
+    {
+      "authors": "J. Y. Oh, H. W. Jung, M. H. Lee, K. H. Lee, and Y. J. Kang",
+      "title": "Enhancing active noise control of road noise using deep neural network to update secondary path estimate in real time",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 206, art. no. 110940",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2023.110940",
+      "id": "s3b-05",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2023.110940",
+      "ieee": "J. Y. Oh, H. W. Jung, M. H. Lee, K. H. Lee, and Y. J. Kang, \"Enhancing active noise control of road noise using deep neural network to update secondary path estimate in real time,\" *Mechanical Systems and Signal Processing*, vol. 206, art. no. 110940, 2024. doi: 10.1016/j.ymssp.2023.110940."
+    },
+    {
+      "authors": "J. Y. Oh, J. Y. Kim, C. S. Oh, J. H. Doe, and Y. J. Kang",
+      "title": "Head-tracking active road noise control by real-time path adaptation using neural networks",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 250, art. no. 114106",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2026.114106",
+      "id": "s3b-06",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2026.114106",
+      "ieee": "J. Y. Oh, J. Y. Kim, C. S. Oh, J. H. Doe, and Y. J. Kang, \"Head-tracking active road noise control by real-time path adaptation using neural networks,\" *Mechanical Systems and Signal Processing*, vol. 250, art. no. 114106, 2026. doi: 10.1016/j.ymssp.2026.114106."
+    },
+    {
+      "authors": "L. Bai, S. Lian, M. Li, Y. He, L. Rao, X. Zeng, R. Sun, K. Chen, and J. Lu",
+      "title": "WaveNet-Volterra neural network for active noise control: A fully causal approach",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 241, art. no. 113486",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2025.113486",
+      "id": "s3b-07",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2025.113486",
+      "ieee": "L. Bai, S. Lian, M. Li, Y. He, L. Rao, X. Zeng, R. Sun, K. Chen, and J. Lu, \"WaveNet-Volterra neural network for active noise control: A fully causal approach,\" *Mechanical Systems and Signal Processing*, vol. 241, art. no. 113486, 2025. doi: 10.1016/j.ymssp.2025.113486."
+    },
+    {
+      "authors": "H. Zhang and D. Wang",
+      "title": "Deep ANC: A deep learning approach to active noise control",
+      "venue": "Neural Networks",
+      "info": "vol. 141, pp. 1–10",
+      "year": 2021,
+      "type": "journal",
+      "doi": "10.1016/j.neunet.2021.03.037",
+      "id": "s3b-08",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.neunet.2021.03.037",
+      "ieee": "H. Zhang and D. Wang, \"Deep ANC: A deep learning approach to active noise control,\" *Neural Networks*, vol. 141, pp. 1–10, 2021. doi: 10.1016/j.neunet.2021.03.037."
+    },
+    {
+      "authors": "H. Zhang and D. Wang",
+      "title": "Deep MCANC: A deep learning approach to multi-channel active noise control",
+      "venue": "Neural Networks",
+      "info": "vol. 158, pp. 318–327",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1016/j.neunet.2022.11.029",
+      "id": "s3b-09",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.neunet.2022.11.029",
+      "ieee": "H. Zhang and D. Wang, \"Deep MCANC: A deep learning approach to multi-channel active noise control,\" *Neural Networks*, vol. 158, pp. 318–327, 2023. doi: 10.1016/j.neunet.2022.11.029."
+    },
+    {
+      "authors": "Y.-J. Cha, A. Mostafavi, and S. S. Benipal",
+      "title": "DNoiseNet: Deep learning-based feedback active noise control in various noisy environments",
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "info": "vol. 121, art. no. 105971",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1016/j.engappai.2023.105971",
+      "id": "s3b-10",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.engappai.2023.105971",
+      "ieee": "Y.-J. Cha, A. Mostafavi, and S. S. Benipal, \"DNoiseNet: Deep learning-based feedback active noise control in various noisy environments,\" *Engineering Applications of Artificial Intelligence*, vol. 121, art. no. 105971, 2023. doi: 10.1016/j.engappai.2023.105971."
+    },
+    {
+      "authors": "A. Aboutiman, K. S. A. Maamoun, H. R. Karimi, and F. Ripamonti",
+      "title": "Hybrid deep learning-based active noise control for encapsulated structures with openings",
+      "venue": "Expert Systems with Applications",
+      "info": "vol. 309, art. no. 131247",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1016/j.eswa.2026.131247",
+      "id": "s3b-11",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.eswa.2026.131247",
+      "ieee": "A. Aboutiman, K. S. A. Maamoun, H. R. Karimi, and F. Ripamonti, \"Hybrid deep learning-based active noise control for encapsulated structures with openings,\" *Expert Systems with Applications*, vol. 309, art. no. 131247, 2026. doi: 10.1016/j.eswa.2026.131247."
+    },
+    {
+      "authors": "L. Yin, Z. Zhang, M. Wu, S. Zhou, J. Guo, J. Yang, and J. Zhang",
+      "title": "Selective fixed-filter active noise control based on frequency response matching in headphones",
+      "venue": "Applied Acoustics",
+      "info": "vol. 211, art. no. 109505",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1016/j.apacoust.2023.109505",
+      "id": "s3b-12",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.apacoust.2023.109505",
+      "ieee": "L. Yin, Z. Zhang, M. Wu, S. Zhou, J. Guo, J. Yang, and J. Zhang, \"Selective fixed-filter active noise control based on frequency response matching in headphones,\" *Applied Acoustics*, vol. 211, art. no. 109505, 2023. doi: 10.1016/j.apacoust.2023.109505."
+    },
+    {
+      "authors": "A. Aboutiman, Z. Rachman, T. Oberman, F. Aletta, J. Kang, H. R. Karimi, and F. Ripamonti",
+      "title": "Subjective perception analysis of active noise control algorithms in an encapsulated structure: An experimental study",
+      "venue": "Applied Acoustics",
+      "info": "vol. 239, art. no. 110823",
+      "year": 2025,
+      "type": "journal",
+      "doi": "10.1016/j.apacoust.2025.110823",
+      "id": "s3b-13",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.apacoust.2025.110823",
+      "ieee": "A. Aboutiman, Z. Rachman, T. Oberman, F. Aletta, J. Kang, H. R. Karimi, and F. Ripamonti, \"Subjective perception analysis of active noise control algorithms in an encapsulated structure: An experimental study,\" *Applied Acoustics*, vol. 239, art. no. 110823, 2025. doi: 10.1016/j.apacoust.2025.110823."
+    },
+    {
+      "authors": "L. Yin, Z. Zhang, M. Wu, Z. Wang, C. Ma, S. Zhou, and J. Yang",
+      "title": "Adaptive parallel filter method for active cancellation of road noise inside vehicles",
+      "venue": "Mechanical Systems and Signal Processing",
+      "info": "vol. 193, art. no. 110274",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1016/j.ymssp.2023.110274",
+      "id": "s3b-14",
+      "section": [
+        "3"
+      ],
+      "provenance": [
+        "anc-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.ymssp.2023.110274",
+      "ieee": "L. Yin, Z. Zhang, M. Wu, Z. Wang, C. Ma, S. Zhou, and J. Yang, \"Adaptive parallel filter method for active cancellation of road noise inside vehicles,\" *Mechanical Systems and Signal Processing*, vol. 193, art. no. 110274, 2023. doi: 10.1016/j.ymssp.2023.110274."
+    },
+    {
+      "authors": "K. Ooi, Z.-T. Ong, K. N. Watcharasupat, B. Lam, J. Y. Hong, and W.-S. Gan",
+      "title": "ARAUS: A large-scale dataset and baseline models of affective responses to augmented urban soundscapes",
+      "venue": "IEEE Transactions on Affective Computing",
+      "info": "vol. 15, no. 1, pp. 105–120",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1109/TAFFC.2023.3247914",
+      "id": "s4a-01",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TAFFC.2023.3247914",
+      "ieee": "K. Ooi, Z.-T. Ong, K. N. Watcharasupat, B. Lam, J. Y. Hong, and W.-S. Gan, \"ARAUS: A large-scale dataset and baseline models of affective responses to augmented urban soundscapes,\" *IEEE Transactions on Affective Computing*, vol. 15, no. 1, pp. 105–120, 2024. doi: 10.1109/TAFFC.2023.3247914."
+    },
+    {
+      "authors": "K. Ooi, K. N. Watcharasupat, B. Lam, Z.-T. Ong, and W.-S. Gan",
+      "title": "Autonomous soundscape augmentation with multimodal fusion of visual and participant-linked inputs",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 1–5",
+      "year": 2023,
+      "type": "conference",
+      "doi": "10.1109/ICASSP49357.2023.10094866",
+      "id": "s4a-02",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP49357.2023.10094866",
+      "ieee": "K. Ooi, K. N. Watcharasupat, B. Lam, Z.-T. Ong, and W.-S. Gan, \"Autonomous soundscape augmentation with multimodal fusion of visual and participant-linked inputs,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 1–5, 2023. doi: 10.1109/ICASSP49357.2023.10094866."
+    },
+    {
+      "authors": "K. N. Watcharasupat, K. Ooi, B. Lam, T. Wong, Z.-T. Ong, and W.-S. Gan",
+      "title": "Autonomous in-situ soundscape augmentation via joint selection of masker and gain",
+      "venue": "IEEE Signal Processing Letters",
+      "info": "vol. 29, pp. 1749–1753",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1109/LSP.2022.3194419",
+      "id": "s4a-03",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/LSP.2022.3194419",
+      "ieee": "K. N. Watcharasupat, K. Ooi, B. Lam, T. Wong, Z.-T. Ong, and W.-S. Gan, \"Autonomous in-situ soundscape augmentation via joint selection of masker and gain,\" *IEEE Signal Processing Letters*, vol. 29, pp. 1749–1753, 2022. doi: 10.1109/LSP.2022.3194419."
+    },
+    {
+      "authors": "K. Ooi, K. N. Watcharasupat, B. Lam, Z.-T. Ong, and W.-S. Gan",
+      "title": "Probably pleasant? A neural-probabilistic approach to automatic masker selection for urban soundscape augmentation",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 8887–8891",
+      "year": 2022,
+      "type": "conference",
+      "doi": "10.1109/ICASSP43922.2022.9746897",
+      "id": "s4a-04",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP43922.2022.9746897",
+      "ieee": "K. Ooi, K. N. Watcharasupat, B. Lam, Z.-T. Ong, and W.-S. Gan, \"Probably pleasant? A neural-probabilistic approach to automatic masker selection for urban soundscape augmentation,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 8887–8891, 2022. doi: 10.1109/ICASSP43922.2022.9746897."
+    },
+    {
+      "authors": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan",
+      "title": "The effects of spatial separations between water sound and traffic noise sources on soundscape assessment",
+      "venue": "Building and Environment",
+      "info": "vol. 167, art. no. 106423",
+      "year": 2020,
+      "type": "journal",
+      "doi": "10.1016/j.buildenv.2019.106423",
+      "id": "s4a-05",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.buildenv.2019.106423",
+      "ieee": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan, \"The effects of spatial separations between water sound and traffic noise sources on soundscape assessment,\" *Building and Environment*, vol. 167, art. no. 106423, 2020. doi: 10.1016/j.buildenv.2019.106423."
+    },
+    {
+      "authors": "B. Lam, Z.-T. Ong, K. Ooi, W.-H. Ong, T. Wong, K. N. Watcharasupat, V. Boey, I. Lee, J. Y. Hong, J. Kang, K. F. A. Lee, G. Christopoulos, and W.-S. Gan",
+      "title": "Automating urban soundscape enhancements with AI: In-situ assessment of quality and restorativeness in traffic-exposed residential areas",
+      "venue": "Building and Environment",
+      "info": "vol. 266, art. no. 112106",
+      "year": 2024,
+      "type": "journal",
+      "doi": "10.1016/j.buildenv.2024.112106",
+      "id": "s4a-06",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.buildenv.2024.112106",
+      "ieee": "B. Lam, Z.-T. Ong, K. Ooi, W.-H. Ong, T. Wong, K. N. Watcharasupat, V. Boey, I. Lee, J. Y. Hong, J. Kang, K. F. A. Lee, G. Christopoulos, and W.-S. Gan, \"Automating urban soundscape enhancements with AI: In-situ assessment of quality and restorativeness in traffic-exposed residential areas,\" *Building and Environment*, vol. 266, art. no. 112106, 2024. doi: 10.1016/j.buildenv.2024.112106."
+    },
+    {
+      "authors": "J. Y. Hong, Z.-T. Ong, B. Lam, K. Ooi, W.-S. Gan, J. Kang, J. Feng, and S.-T. Tan",
+      "title": "Effects of adding natural sounds to urban noises on the perceived loudness of noise and soundscape quality",
+      "venue": "Science of The Total Environment",
+      "info": "vol. 711, art. no. 134571",
+      "year": 2020,
+      "type": "journal",
+      "doi": "10.1016/j.scitotenv.2019.134571",
+      "id": "s4a-07",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.scitotenv.2019.134571",
+      "ieee": "J. Y. Hong, Z.-T. Ong, B. Lam, K. Ooi, W.-S. Gan, J. Kang, J. Feng, and S.-T. Tan, \"Effects of adding natural sounds to urban noises on the perceived loudness of noise and soundscape quality,\" *Science of The Total Environment*, vol. 711, art. no. 134571, 2020. doi: 10.1016/j.scitotenv.2019.134571."
+    },
+    {
+      "authors": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan",
+      "title": "A mixed-reality approach to soundscape assessment of outdoor urban environments augmented with natural sounds",
+      "venue": "Building and Environment",
+      "info": "vol. 194, art. no. 107688",
+      "year": 2021,
+      "type": "journal",
+      "doi": "10.1016/j.buildenv.2021.107688",
+      "id": "s4a-08",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.buildenv.2021.107688",
+      "ieee": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan, \"A mixed-reality approach to soundscape assessment of outdoor urban environments augmented with natural sounds,\" *Building and Environment*, vol. 194, art. no. 107688, 2021. doi: 10.1016/j.buildenv.2021.107688."
+    },
+    {
+      "authors": "B. Lam, E. M. P. Fan, K. Ooi, Z.-T. Ong, J. Y. Hong, W.-S. Gan, and S. Y. Ang",
+      "title": "Assessing the perceived indoor acoustic environment quality across building occupants in a tertiary-care public hospital in Singapore",
+      "venue": "Building and Environment",
+      "info": "vol. 222, art. no. 109403",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1016/j.buildenv.2022.109403",
+      "id": "s4a-09",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.buildenv.2022.109403",
+      "ieee": "B. Lam, E. M. P. Fan, K. Ooi, Z.-T. Ong, J. Y. Hong, W.-S. Gan, and S. Y. Ang, \"Assessing the perceived indoor acoustic environment quality across building occupants in a tertiary-care public hospital in Singapore,\" *Building and Environment*, vol. 222, art. no. 109403, 2022. doi: 10.1016/j.buildenv.2022.109403."
+    },
+    {
+      "authors": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, and S. Lee",
+      "title": "A multidimensional assessment of construction machinery noises based on perceptual attributes and psychoacoustic parameters",
+      "venue": "Automation in Construction",
+      "info": "vol. 140, art. no. 104295",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1016/j.autcon.2022.104295",
+      "id": "s4a-10",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.autcon.2022.104295",
+      "ieee": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, and S. Lee, \"A multidimensional assessment of construction machinery noises based on perceptual attributes and psychoacoustic parameters,\" *Automation in Construction*, vol. 140, art. no. 104295, 2022. doi: 10.1016/j.autcon.2022.104295."
+    },
+    {
+      "authors": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan",
+      "title": "Effects of contexts in urban residential areas on the pleasantness and appropriateness of natural sounds",
+      "venue": "Sustainable Cities and Society",
+      "info": "vol. 63, art. no. 102475",
+      "year": 2020,
+      "type": "journal",
+      "doi": "10.1016/j.scs.2020.102475",
+      "id": "s4a-11",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.scs.2020.102475",
+      "ieee": "J. Y. Hong, B. Lam, Z.-T. Ong, K. Ooi, W.-S. Gan, J. Kang, S. Yeong, I. Lee, and S.-T. Tan, \"Effects of contexts in urban residential areas on the pleasantness and appropriateness of natural sounds,\" *Sustainable Cities and Society*, vol. 63, art. no. 102475, 2020. doi: 10.1016/j.scs.2020.102475."
+    },
+    {
+      "authors": "B. Lam, K. C. Q. Lim, K. Ooi, Z.-T. Ong, D. Shi, and W.-S. Gan",
+      "title": "Anti-noise window: Subjective perception of active noise reduction and effect of informational masking",
+      "venue": "Sustainable Cities and Society",
+      "info": "vol. 97, art. no. 104763",
+      "year": 2023,
+      "type": "journal",
+      "doi": "10.1016/j.scs.2023.104763",
+      "id": "s4a-12",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1016/j.scs.2023.104763",
+      "ieee": "B. Lam, K. C. Q. Lim, K. Ooi, Z.-T. Ong, D. Shi, and W.-S. Gan, \"Anti-noise window: Subjective perception of active noise reduction and effect of informational masking,\" *Sustainable Cities and Society*, vol. 97, art. no. 104763, 2023. doi: 10.1016/j.scs.2023.104763."
+    },
+    {
+      "authors": "R. Gupta, J. He, R. Ranjan, W.-S. Gan, F. Klein, C. Schneiderwind, A. Neidhardt, K. Brandenburg, and V. Välimäki",
+      "title": "Augmented/mixed reality audio for hearables: Sensing, control, and rendering",
+      "venue": "IEEE Signal Processing Magazine",
+      "info": "vol. 39, no. 3, pp. 63–89",
+      "year": 2022,
+      "type": "journal",
+      "doi": "10.1109/MSP.2021.3110108",
+      "id": "s4a-13",
+      "section": [
+        "5"
+      ],
+      "provenance": [
+        "asi-authors"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/MSP.2021.3110108",
+      "ieee": "R. Gupta, J. He, R. Ranjan, W.-S. Gan, F. Klein, C. Schneiderwind, A. Neidhardt, K. Brandenburg, and V. Välimäki, \"Augmented/mixed reality audio for hearables: Sensing, control, and rendering,\" *IEEE Signal Processing Magazine*, vol. 39, no. 3, pp. 63–89, 2022. doi: 10.1109/MSP.2021.3110108."
+    },
+    {
+      "authors": "Y. Hou, Q. Ren, A. Mitchell, W. Wang, J. Kang, T. Belpaeme, and D. Botteldooren",
+      "title": "Soundscape captioning using sound affective quality network and large language model",
+      "venue": "IEEE Transactions on Multimedia",
+      "info": "vol. 28, pp. 2186–2200",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1109/TMM.2026.3651023",
+      "id": "s4b-02",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TMM.2026.3651023",
+      "ieee": "Y. Hou, Q. Ren, A. Mitchell, W. Wang, J. Kang, T. Belpaeme, and D. Botteldooren, \"Soundscape captioning using sound affective quality network and large language model,\" *IEEE Transactions on Multimedia*, vol. 28, pp. 2186–2200, 2026. doi: 10.1109/TMM.2026.3651023."
+    },
+    {
+      "authors": "Y. Hou, S. Song, C. Luo, A. Mitchell, Q. Ren, W. Xie, J. Kang, W. Wang, and D. Botteldooren",
+      "title": "Joint prediction of audio event and annoyance rating in an urban soundscape by hierarchical graph representation learning",
+      "venue": "arXiv preprint",
+      "year": 2023,
+      "type": "preprint",
+      "arxiv": "2308.11980",
+      "id": "s4b-03",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2308.11980",
+      "ieee": "Y. Hou, S. Song, C. Luo, A. Mitchell, Q. Ren, W. Xie, J. Kang, W. Wang, and D. Botteldooren, \"Joint prediction of audio event and annoyance rating in an urban soundscape by hierarchical graph representation learning,\" *arXiv preprint*, 2023. arXiv:2308.11980."
+    },
+    {
+      "authors": "Y. Hou, Q. Ren, S. Song, Y. Song, W. Wang, and D. Botteldooren",
+      "title": "Multi-level graph learning for audio event classification and human-perceived annoyance rating prediction",
+      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "info": "pp. 716–720",
+      "year": 2024,
+      "type": "conference",
+      "doi": "10.1109/ICASSP48485.2024.10446633",
+      "id": "s4b-04",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/ICASSP48485.2024.10446633",
+      "ieee": "Y. Hou, Q. Ren, S. Song, Y. Song, W. Wang, and D. Botteldooren, \"Multi-level graph learning for audio event classification and human-perceived annoyance rating prediction,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, pp. 716–720, 2024. doi: 10.1109/ICASSP48485.2024.10446633."
+    },
+    {
+      "authors": "T. Chen, M. Itani, S. E. Eskimez, T. Yoshioka, and S. Gollakota",
+      "title": "Hearable devices with sound bubbles",
+      "venue": "Nature Electronics",
+      "info": "vol. 7, pp. 1047–1058",
+      "year": 2024,
+      "type": "journal",
+      "url": "https://doi.org/10.1038/s41928-024-01276-z",
+      "id": "s4b-05",
+      "section": [
+        "5"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "doi": "10.1038/s41928-024-01276-z",
+      "arxiv": null,
+      "verification": "web",
+      "verified": true,
+      "ieee": "T. Chen, M. Itani, S. E. Eskimez, T. Yoshioka, and S. Gollakota, \"Hearable devices with sound bubbles,\" *Nature Electronics*, vol. 7, pp. 1047–1058, 2024. doi: 10.1038/s41928-024-01276-z."
+    },
+    {
+      "authors": "B. Veluri, M. Itani, J. Chan, T. Yoshioka, and S. Gollakota",
+      "title": "Semantic hearing: Programming acoustic scenes with binaural hearables",
+      "venue": "Proc. 36th Annual ACM Symp. User Interface Software and Technology (UIST)",
+      "info": "pp. 1–15",
+      "year": 2023,
+      "type": "conference",
+      "doi": "10.1145/3586183.3606779",
+      "id": "s4b-06",
+      "section": [
+        "5"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1145/3586183.3606779",
+      "ieee": "B. Veluri, M. Itani, J. Chan, T. Yoshioka, and S. Gollakota, \"Semantic hearing: Programming acoustic scenes with binaural hearables,\" *Proc. 36th Annual ACM Symp. User Interface Software and Technology (UIST)*, pp. 1–15, 2023. doi: 10.1145/3586183.3606779."
+    },
+    {
+      "authors": "K. Yuan, F. Y. Liu, T. Xiao, Y. Song, C. Shen, S. Bhutani, J. Chan, and S. Kumar",
+      "title": "Active noise cancellation on open-ear smart glasses",
+      "venue": "arXiv preprint",
+      "year": 2026,
+      "type": "preprint",
+      "arxiv": "2604.05519",
+      "id": "s4b-07",
+      "section": [
+        "5"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "doi": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://arxiv.org/abs/2604.05519",
+      "ieee": "K. Yuan, F. Y. Liu, T. Xiao, Y. Song, C. Shen, S. Bhutani, J. Chan, and S. Kumar, \"Active noise cancellation on open-ear smart glasses,\" *arXiv preprint*, 2026. arXiv:2604.05519."
+    },
+    {
+      "authors": "Y. Liang, A. Mitchell, J. Kang, and F. Aletta",
+      "title": "A review of soundscape datasets: Challenges and prospects for multimodal research",
+      "venue": "IEEE Transactions on Affective Computing",
+      "info": "vol. 17, no. 2, pp. 1505–1520",
+      "year": 2026,
+      "type": "journal",
+      "doi": "10.1109/TAFFC.2026.3659084",
+      "id": "s4b-08",
+      "section": [
+        "4"
+      ],
+      "provenance": [
+        "asi-others"
+      ],
+      "arxiv": null,
+      "verification": "source-doi",
+      "verified": true,
+      "url": "https://doi.org/10.1109/TAFFC.2026.3659084",
+      "ieee": "Y. Liang, A. Mitchell, J. Kang, and F. Aletta, \"A review of soundscape datasets: Challenges and prospects for multimodal research,\" *IEEE Transactions on Affective Computing*, vol. 17, no. 2, pp. 1505–1520, 2026. doi: 10.1109/TAFFC.2026.3659084."
+    }
+  ]
+}

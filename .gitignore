@@ -1,0 +1,13 @@
+# Private source inputs — never committed, never deployed
+source_materials/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
