@@ -53,11 +53,6 @@
   }
 
   function renderHeroMeta(meta) {
-    const loc = $("#heroMeta .tba");
-    if (loc && meta.event) {
-      if (meta.event.location) { loc.textContent = meta.event.location; loc.classList.remove("tba"); }
-      else loc.textContent = meta.event.location_placeholder || "Room to be confirmed";
-    }
     const foot = $("#footMeta");
     if (foot) foot.textContent =
       `${meta.event.conference} · ${meta.event.tutorial_number} · Updated ${meta.last_updated || ""}`.trim();

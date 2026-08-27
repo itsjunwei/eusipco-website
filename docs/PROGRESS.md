@@ -275,3 +275,46 @@ Requested changes to the live site (repo `itsjunwei/eusipco-website`, Pages URL
 
 **Not done by me (no git access to the machine):** the `git commit` + `git push`. Files are
 written to the folder; the user pushes to publish, then Pages redeploys.
+
+---
+
+## Content correction pass — post-deploy  ·  2026-08-27
+
+Independent web re-verification done **before** editing `references.json` (items 2–6), per
+instruction. Sources: OpenAlex (by DOI), Tampere University Research Portal, ADS, IEEE Xplore.
+
+**Per-item status**
+1. **Slide count 183 → 191 — RESOLVED.** `meta.json` download label and `deck_note` updated to
+   191 (confirmed by the presenter against the source PPTX, 2026-08-27). `outline.json` verified
+   internally consistent with 191 (ranges contiguous 1–191, §6 ends at 191) — no change needed.
+   No stray "183" elsewhere (`index.html` is data-driven).
+2. **Adavanne (s1-06) year 2019 — RESOLVED (already correct).** Confirmed via Tampere University
+   Research Portal record and ADS bibcode `2019ISTSP..13...34A` (JSTSP, vol. 13(1), pp. 34–48,
+   March 2019). No JSON change.
+3. **Politis (s1-15) year — RESOLVED, 2021 confirmed.** s1-15 cites "Overview and Evaluation of
+   SELD in DCASE 2019," IEEE/ACM TASLP, vol. 29, pp. 684–698. OpenAlex reported 2020 (the
+   early-access/online date; DOI carries 2020), but the Tampere Research Portal lists it
+   "Published – 2021" (vol. 29 = the 2021 volume). Kept year 2021, verified. Flagged the
+   two-convention discrepancy rather than silently trusting it.
+4. **Yeow Sensors J. (s1-14) — RESOLVED, applied.** OpenAlex confirmed vol. 25, no. 15,
+   pp. 29221–29237, 2025, DOI 10.1109/JSEN.2025.3583033. Set info + DOI, verification=web,
+   verified=true; IEEE string regenerated.
+5a. **Nozaki ICASSP (s1-22) — RESOLVED, applied.** DOI 10.1109/ICASSP49660.2025.10890626
+   confirmed (OpenAlex record + IEEE Xplore doc 10890626). Set DOI, verification=web, verified=true.
+5b. **Berghi & Jackson SPL (s1-13) — RESOLVED, applied.** OpenAlex confirmed IEEE SPL, vol. 33,
+   pp. 1841–1845, 2026, DOI 10.1109/LSP.2026.3685150. Added vol/pp; verification=web.
+6. **PSELDNets (s1-19) — RESOLVED (already correct).** ADS bibcode `2025ITASL..33.2845H`
+   confirms TASLP vol. 33, p. 2845, 2025; pages 2845–2860 retained. No change.
+7. **Remove room info — RESOLVED.** Deleted the "Location / Room to be confirmed" line from the
+   hero (`index.html`), removed `location`/`room`/`location_placeholder` from `meta.json` event,
+   and removed the now-dead location logic in `app.js` `renderHeroMeta`. No replacement added.
+8. **noscript fallback — HELD.** The brief says "use the exact block from the uploaded doc," but
+   no document is attached to this session. Not applied; awaiting the doc (or paste the block).
+9. **Font Carlito → IBM Plex Sans — HELD.** Same reason — the brief references exact CSS/link
+   changes from the uploaded doc, which is not attached. Not applied; awaiting the doc.
+
+**Result:** references.json verification counts now web 43 / source-doi 60 / **unresolved 0**.
+All applied citation changes were independently confirmed; nothing was accepted at face value.
+
+**Not done by me (no git access):** `git commit` + `git push` — files written to the folder; the
+user pushes to publish.

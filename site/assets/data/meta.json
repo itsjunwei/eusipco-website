@@ -12,10 +12,7 @@
     "conference_long": "33rd European Signal Processing Conference",
     "tutorial_number": "Tutorial #2",
     "date": "31 August 2026",
-    "date_iso": "2026-08-31",
-    "location": null,
-    "room": null,
-    "location_placeholder": "Room/track to be confirmed"
+    "date_iso": "2026-08-31"
   },
   "presenters": ["gan", "tan", "yeow"],
   "presenters_line": "Prof. Woon-Seng Gan · Dr. Ee-Leng Tan · Mr. Jun-Wei Yeow (NTU Singapore)",
@@ -42,9 +39,9 @@
   "downloads": {
     "release_policy": "after_session",
     "release_note": "Slides will be available for download after the session.",
-    "deck_note": "Single full-deck download only (per-presenter subset PDFs removed by presenter request). Labelled 183 slides per presenter instruction (pretext.md). Note: the provided section PDFs measured 187 pages in total (the Gan PDF holds 108 pages, not the 112 its '…80-to-191' filename implies) — confirm the final deck length before release.",
+    "deck_note": "Full tutorial deck is 191 slides, confirmed by the presenter against the source PPTX on 2026-08-27. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
     "items": [
-      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "183 slides", "file": null, "status": "pending", "gated": true}
+      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "191 slides", "file": null, "status": "pending", "gated": true}
     ]
   },
   "contact": {
