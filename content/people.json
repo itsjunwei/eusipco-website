@@ -10,7 +10,7 @@
       "display_name": "Prof. Woon-Seng Gan",
       "honorific": "Prof.",
       "sections": ["0", "3", "4", "5", "6"],
-      "credentials": "Professor of Audio Engineering @ NTU • Fellow of Audio Engineering Society • President of Asia Pacific Signal and Information Processing • Distinguished Lecturer IEEE Signal Processing Society",
+      "credentials": "Professor of Audio Engineering @ NTU • Fellow of Audio Engineering Society • President of the Asia Pacific Signal and Information Processing Association (APSIPA) • Distinguished Lecturer IEEE Signal Processing Society",
       "research": null,
       "headshot": "assets/img/gan.png",
       "links": {
@@ -44,7 +44,7 @@
       "display_name": "Mr. Jun-Wei Yeow",
       "honorific": "Mr.",
       "sections": ["1"],
-      "credentials": "Ph.D Researcher @ NTU",
+      "credentials": "Ph.D. Researcher @ NTU",
       "research": "Sound Event Localization & Detection • Machine Learning • Real-Time Signal Processing",
       "headshot": "assets/img/yeow.png",
       "links": {

@@ -1,8 +1,8 @@
 {
   "schema": "outline/v1",
   "source": "tutorial-outline-flow.md",
-  "arc": "Perception → Contextual Understanding → Context-Aware Action → Purposeful Sound Intervention",
-  "one_line": "Perception (SELD) → Integration (ASC+SED+SELD → Context) → Action (Active Noise Control · Soundscape Augmentation · Intelligent Sound Management), underpinned by label-efficient learning, language interfaces, and human/context awareness.",
+  "arc": "Perception → Contextual Understanding → Context-Aware Action",
+  "one_line": "Perception (SELD) → Contextual Understanding (ASC + SED + SELD) → Context-Aware Action (Active Noise Control, Soundscape Augmentation, and Intelligent Sound Management), progressing towards adaptive and human-aware intervention.",
   "timing_note": "Per-section timings are not specified in the source materials and are left null pending presenter confirmation (Phase 6).",
   "sections": [
     {
@@ -13,18 +13,12 @@
       "slides": "1–11",
       "presenter": "all",
       "timing_min": null,
-      "summary": "Framing the tutorial around the arc Hear → Understand → Reason → Act, and motivating why environmental acoustics matters for smart cities.",
+      "summary": "Environmental Acoustic Intelligence is framed as Hear → Understand → Reason → Act, linking environmental sensing with purposeful sound intervention.",
       "subsections": [
-        {"title": "Framing & lab overview", "points": [
-          "Title, presenter introductions, Smart Nation TRANS Lab @ NTU",
-          "The four-stage arc: Perception → Contextual Understanding → Context-Aware Action → Purposeful Sound Intervention",
-          "The character 聽 (listening) as a metaphor for intelligent listening, paralleling agentic AI (observe → understand → reason → act)"
-        ]},
-        {"title": "Motivation: acoustics for smart cities", "points": [
-          "Noise as both a pollutant and a bio-indicator",
-          "Health effects of noise (WHO ranking, non-auditory effects) and WHO urban-noise guidelines",
-          "Global use cases of smart acoustic sensing (New York, Paris, Singapore, and others)",
-          "Core challenges: data scarcity, overlapping sources, real-time constraints"
+        {"title": "Key ideas", "points": [
+          "Environmental Acoustic Intelligence: moving from acoustic sensing towards Contextual Understanding and intervention.",
+          "Hear → Understand → Reason → Act as the tutorial’s broader framing.",
+          "Why acoustics matters for environmental sensing and smart cities: noise, bio-indicators, health, and real-time challenges."
         ]}
       ]
     },
@@ -36,32 +30,12 @@
       "slides": "12–55",
       "presenter": "yeow",
       "timing_min": null,
-      "summary": "Sound Event Localization and Detection (SELD) as structured perception: foundations, the supervised pipeline, label-efficient learning, and language as an interface.",
+      "summary": "Spatial perception establishes what happens, when it happens, and where it occurs in an acoustic environment.",
       "subsections": [
-        {"title": "Foundations of SELD", "points": [
-          "Human listening as structured perception (identity–time–location binding)",
-          "What is SELD? Sound event detection + direction-of-arrival estimation, jointly",
-          "Why SELD must be joint (association, not just detection plus localization)",
-          "Demo: monophonic SELD; early real-world residential IoT-sensor deployment"
-        ]},
-        {"title": "The supervised SELD pipeline", "points": [
-          "End-to-end framework: dataset → features → backbone → predictions → applications",
-          "Input formats: FOA vs. MIC vs. Stereo — spatial-cue trade-offs",
-          "Features: spectral (what) + spatial (where); SALSA / SALSA-Lite",
-          "Neural backbones: SELDNet (CRNN) → ResNet-Conformer → CST-Former",
-          "Output representations: two-branch → ACCDOA → Multi-ACCDOA → distance-extended (3-D SELD)",
-          "Evaluation metrics (ER, F-score, LE, LR, RDE, SELD error) and benchmarks over time"
-        ]},
-        {"title": "Label-efficient / data-centric learning", "points": [
-          "Why SELD learning becomes data-centric as label dimensions grow (class → time → direction → distance)",
-          "Three routes to scalable supervision: synthetic scene generation; spatial self-supervised learning; audio-visual correspondence",
-          "Long-tail class imbalance → MAGENTA (decoupled error + adaptive class weighting)",
-          "Synthetic pretraining for reusable backbones (PSELDNets)"
-        ]},
-        {"title": "Language as an interface to SELD", "points": [
-          "Rise of Large Audio-Language Models: Pengi, LTU, SALMONN → Qwen2-Audio → Kimi-Audio / Step-Audio",
-          "SELD as a queryable interface: open-vocabulary SELD, text-queried localization, spatial question answering (BAT, SPUR)",
-          "Recap: build spatial perception → learn with less supervision → add language interfaces"
+        {"title": "Key ideas", "points": [
+          "Sound Event Localization and Detection (SELD): jointly identifying what happens, when it happens, and where it occurs.",
+          "The modern SELD pipeline: spatial audio inputs, features, learning, and representations for joint detection and localization.",
+          "Scaling perception through synthetic data, spatial self-supervision, audio-visual learning, and language interfaces."
         ]}
       ]
     },
@@ -69,28 +43,16 @@
       "id": "2",
       "number": "2",
       "kind": "core",
-      "title": "Contextual Understanding — From Perception to Context-Aware Intelligence",
+      "title": "Contextual Understanding",
       "slides": "56–79",
       "presenter": "tan",
       "timing_min": null,
-      "summary": "Integrating acoustic scene classification, sound event detection, and SELD so that semantic information becomes contextual understanding that can drive action.",
+      "summary": "Contextual Understanding combines scene, event, and spatial information so that perception can guide later decisions.",
       "subsections": [
-        {"title": "The three perception tasks", "points": [
-          "ASC (scene) vs. SED (events) vs. SELD (events + location): questions, resolution, spatial requirement",
-          "Datasets landscape for ASC / SED / SELD",
-          "Worked example: an urban street market analysed with ASC + SED + SELD together"
-        ]},
-        {"title": "Integrating ASC + SED", "points": [
-          "Architectural paradigms of increasing integration: parallel → sequential → multi-task (hard sharing) → flexible/soft MTL",
-          "Enhancements: soft scene labels, weak labels, scene-conditioned and multi-focal losses, cooperative feature sharing",
-          "Summary: independent → uni-directional → shared → dynamic interaction"
-        ]},
-        {"title": "Integrating ASC + SELD (context-aware spatial perception)", "points": [
-          "From semantic information to contextual understanding (more information ≠ better understanding)",
-          "Use case: ASC + SELD for hazard-aware situational awareness on wearables",
-          "Soft scene-conditioning of SELD models",
-          "ASC as an enabling front-end: accurate, robust, and lightweight (DCASE Task 1 as the driver)",
-          "Case study: ultra-lightweight ASC (dilated inception + frequency positional encoding + spatial attention)"
+        {"title": "Key ideas", "points": [
+          "Complementary roles: ASC characterizes scenes, SED identifies events, and SELD adds location.",
+          "From independent pipelines to integrated and multi-task approaches that share contextual information.",
+          "Context-aware spatial perception and lightweight deployment for robust situational awareness."
         ]}
       ]
     },
@@ -102,33 +64,13 @@
       "slides": "80–152",
       "presenter": "gan",
       "timing_min": null,
-      "summary": "The largest technical section: ANC fundamentals and four AI-driven challenges — nonlinearity, slow adaptation, acoustic-path variation, and generalization.",
+      "summary": "Active Noise Control is the largest technical stage, translating contextual acoustic information into practical control.",
       "subsections": [
-        {"title": "ANC fundamentals", "points": [
-          "Physics of destructive interference; feedforward digital ANC design; commercial applications",
-          "ANC at source / propagation path / receiver; portable and distributed ANC",
-          "Scaling to infrastructure: Active Soft Edge noise barriers",
-          "The open-window paradox (ventilation vs. noise in tropical cities); ANC windows and real prototypes"
-        ]},
-        {"title": "Four challenges motivating AI in multi-channel ANC", "points": [
-          "Nonlinearity · slow adaptation · acoustic-path variation · generalization / online tracking",
-          "Categorization of DNN roles in ANC; datasets for ANC research"
-        ]},
-        {"title": "(a) Direct anti-noise generation — nonlinearity", "points": [
-          "Attentive Recurrent Network (ARN): near-zero-latency time-domain control",
-          "Deep Multi-Channel ANC (Deep MCANC); adaptive WaveNet–Volterra controller for road noise"
-        ]},
-        {"title": "(b) Control-filter prediction — slow adaptation", "points": [
-          "Selective Fixed-Filter ANC (SFANC): CNN-based filter selection; field validation and real-time demos",
-          "Transferable latent SFANC; frequency-direction-aware multichannel SFANC (SELD in ANC)",
-          "Generative Fixed-Filter ANC (GFANC) and variants (GFANC-Bayes, unsupervised, RL-based); transformer-based generation"
-        ]},
-        {"title": "(c) Acoustic-path modelling — path variation", "points": [
-          "AI-assisted secondary-path estimation via head tracking + PCA + DNN",
-          "Head-Tracking Active Road Noise Control (HARNC) with virtual-ear sensing"
-        ]},
-        {"title": "(d) Adaptive coordination (hybrid) — generalization", "points": [
-          "Hybrid SFANC–FxNLMS: fast selection plus continuous adaptive refinement"
+        {"title": "Key ideas", "points": [
+          "ANC fundamentals and practical systems across personal, built-environment, and distributed settings.",
+          "Four challenges for AI-assisted ANC: nonlinearity, slow adaptation, acoustic-path variation, and generalization.",
+          "Neural approaches for anti-noise generation, control-filter prediction, acoustic-path modelling, and adaptive coordination.",
+          "Real-time performance, system variation, and deployment trade-offs."
         ]}
       ]
     },
@@ -140,14 +82,12 @@
       "slides": "153–162",
       "presenter": "gan",
       "timing_min": null,
-      "summary": "A paradigm shift from silence to positive soundscapes (ISO 12913): a sense–analyse–augment loop deployed and evaluated in situ.",
+      "summary": "Soundscape Augmentation extends intervention beyond noise reduction towards positive, context-sensitive acoustic environments.",
       "subsections": [
-        {"title": "Positive soundscapes", "points": [
-          "Beyond silence: positive soundscapes and the \"acoustic perfume\" concept (ISO 12913)",
-          "The sense → analyse → augment loop",
-          "ARAUS dataset (affective responses to augmented soundscapes) and related datasets",
-          "Automatic Masker Selection System (AMSS): feature-domain augmentation with probabilistic pleasantness prediction",
-          "Cloud/IoT deployment with a real-time dashboard; multi-site in-situ evaluation of quality and restorativeness"
+        {"title": "Key ideas", "points": [
+          "Beyond noise reduction: designing positive soundscapes through purposeful augmentation.",
+          "Sense → analyse → augment as the operating loop.",
+          "Data-driven masker selection and real-world deployment and evaluation."
         ]}
       ]
     },
@@ -159,15 +99,12 @@
       "slides": "163–186",
       "presenter": "gan",
       "timing_min": null,
-      "summary": "An AR/MR audio framework for hearables and the oPEAR open-ear smart-glasses research thrusts, integrating perception, control, and rendering.",
+      "summary": "Intelligent Sound Management applies sensing, control, and rendering to adaptive listening for hearables.",
       "subsections": [
-        {"title": "Intelligent sound management for hearables", "points": [
-          "AR/MR audio processing framework for hearables (sense, control, render)",
-          "oPEAR — intelligent open-ear smart glasses: (A) direction-preserving ANC via FiLM-conditioned control-filter estimation",
-          "(B) ANC for open-ear glasses (virtual sensing, U-Net filter estimation)",
-          "(C) semantic hearing — class-conditioned target sound extraction/suppression integrated with ANC",
-          "(D) Sound Bubble — programmable personal listening zones",
-          "(E) biosensing in hearables — physiological/emotional state sensing for human-aware intervention"
+        {"title": "Key ideas", "points": [
+          "Sensing, control, and rendering as an integrated hearables framework.",
+          "Semantic and spatially aware sound management, including selective enhancement and control.",
+          "Programmable, adaptive, and human-aware listening systems."
         ]}
       ]
     },
@@ -179,12 +116,12 @@
       "slides": "187–191",
       "presenter": "all",
       "timing_min": null,
-      "summary": "A capability ladder for Active Sound Intervention and a unified dual-rate framework, closing on \"Listen with Understanding and Act with Purpose.\"",
+      "summary": "The tutorial closes by connecting physical control with semantic, contextual, and human-aware intervention.",
       "subsections": [
-        {"title": "Synthesis", "points": [
-          "Capability ladder for Active Sound Intervention: physical layer → acoustic/spatial features → semantic understanding → context-aware decision → human-aware & adaptive",
-          "Unified dual-rate framework: a fast perceive→act control loop plus a slower intelligence & adaptation plane (ASC/SELD, human feedback, continual learning)",
-          "Closing message: Listen with Understanding and Act with Purpose"
+        {"title": "Key ideas", "points": [
+          "Capability progression: physical control → acoustic and spatial features → semantic understanding → contextual decision → human-aware adaptation.",
+          "A fast Perceive → Act control loop combined with a slower intelligence and adaptation plane.",
+          "Listen with Understanding and Act with Purpose."
         ]}
       ]
     }

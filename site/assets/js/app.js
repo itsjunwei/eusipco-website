@@ -121,9 +121,7 @@
     (people.people || []).forEach((p) => (nameById[p.id] = abbrev(p.name)));
     const who = (id) => (id === "all" ? "All" : nameById[id] || id);
     const notice = $("#dlNotice span");
-    if (notice && meta.downloads.release_note) {
-      notice.innerHTML = `Slides will be available for download <strong>after the session</strong>. ${esc(meta.downloads.release_note)}`;
-    }
+    if (notice && meta.downloads.release_note) notice.textContent = meta.downloads.release_note;
     host.innerHTML = meta.downloads.items.map((d) => {
       const full = d.id === "full";
       const available = d.status === "available" && d.file;
@@ -159,8 +157,8 @@
     if (!host) return;
     const intro = $("#refIntro");
     const total = (refs.counts && refs.counts.total) || refs.references.length;
-    if (intro) intro.innerHTML =
-      `${total} references in IEEE style, grouped by section, with DOI / arXiv links where available.`;
+    if (intro) intro.textContent =
+      `${total} references grouped by tutorial section, with DOI or arXiv links where available.`;
 
     const sections = refs.sections || {};
     const order = Object.keys(sections);
@@ -177,15 +175,6 @@
         <ul class="refs">${lis}</ul>
       </details>`;
     }).join("");
-  }
-
-  function renderContact(meta) {
-    const qr = $("#qr");
-    if (!qr || !meta.contact) return;
-    if (meta.contact.qr) {
-      qr.innerHTML = `<img src="${esc(meta.contact.qr)}" alt="QR code linking to this tutorial page" style="width:100%;height:100%;object-fit:contain">`;
-      qr.removeAttribute("aria-label");
-    }
   }
 
   function renderError(err) {
@@ -230,7 +219,6 @@
       renderOutline(outline);
       renderDownloads(meta, people);
       renderReferences(refs);
-      renderContact(meta);
     } catch (err) {
       console.error(err);
       renderError(err);
