@@ -26,7 +26,7 @@ open questions and surface them once at the end of a phase, not mid-task.
 - **Venue:** EUSIPCO 2026, Tutorial #2
 - **Date:** 31 August 2026
 - **Presenters:** Prof. Woon-Seng Gan, Dr. Ee-Leng Tan (Joseph), Mr. Jun-Wei Yeow — all NTU
-- **Deck:** 183 slides total; Jun Wei's section is slides 9–54 (supervised SELD
+- **Deck:** 186 slides total; Jun Wei's section is slides 12–55 (supervised SELD
   pipeline, label-efficient SELD, language-based SELD, context-aware SELD)
 
 ---
@@ -39,7 +39,7 @@ open questions and surface them once at the end of a phase, not mid-task.
 | Hosting | GitHub Pages, deployed from `site/` only |
 | Tech stack | Plain HTML/CSS/JS. No React, no bundler |
 | Repo location | Lab/organisation GitHub account, not personal — flag if org doesn't exist yet |
-| Slides release timing | Publish outline + references immediately; publish slide PDFs with a note "available after the session," then flip live post-talk. If user overrides this later, treat as a content update, not a redesign |
+| Slides release timing | The full tutorial deck is released; structured metadata controls download availability |
 | Content excluded from site | Speaker notes, spoken script, PPTX source file, unpublished/preliminary results |
 | Design anchor | Navy (#17364F → #0E2842) + teal (#0F6E56) from the deck's palette, Calibri or closest web-safe equivalent |
 | Citation format | IEEE style, primary literature only, no invented citations, DOI/arXiv link where available |

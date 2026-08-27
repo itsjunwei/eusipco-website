@@ -1,31 +1,24 @@
 #!/usr/bin/env python3
 """split_deck.py — prepare the per-presenter and full-deck slide PDFs.
 
-The tutorial deck is 191 slides across four contiguous sections. This tool either
-SPLITS a full-deck PDF into the per-presenter ranges, or MERGES the four section
-PDFs into a single full-deck PDF — whichever the available source calls for.
+The tutorial deck is 186 slides across four contiguous presenter ranges. This
+tool either splits a full-deck PDF into those ranges or merges approved section
+PDFs into one deck.
 
 Page ranges (1-based, inclusive) mirror content/meta.json → downloads:
     intro   1–11    (all presenters)
     yeow    12–55   (Spatial Perception — SELD)
     tan     56–79   (Contextual Understanding)
-    gan     80–191  (Context-Aware Action & Intelligent Sound Management)
+    gan     80–186  (remaining tutorial sections)
 
-Slides are gated until after the session (see pretext.md), so this script writes
-its output to a staging dir by default — NOT into site/downloads/. Move/rename the
-approved PDFs into site/downloads/ and set their `status`/`file` in meta.json when
-the presenters choose to release them.
+Output is written to a staging directory by default. Public download availability
+is controlled by content/meta.json.
 
 Examples:
     # Split a full-deck export into the four section PDFs
-    python build/split_deck.py split source_materials/full_deck.pdf --out build/_slides
-
-    # Merge the four section PDFs (in slide order) into one full deck
-    python build/split_deck.py merge --out build/_slides/full_deck.pdf \
-        source_materials/Tutorial_Intro_1-to-11.pdf \
-        source_materials/Tutorial_JW_12-to-55.pdf \
-        source_materials/Tutorial_Joseph_56-to-79.pdf \
-        source_materials/Tutorial_ProfGan_80-to-191.pdf
+    python build/split_deck.py split \
+        site/downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf \
+        --out build/_slides
 
 Requires pikepdf (`pip install pikepdf`).
 """
@@ -43,7 +36,7 @@ RANGES = {
     "intro": (1, 11),
     "yeow": (12, 55),
     "tan": (56, 79),
-    "gan": (80, 191),
+    "gan": (80, 186),
 }
 
 

@@ -1,9 +1,9 @@
 {
   "schema": "outline/v1",
   "source": "tutorial-outline-flow.md",
-  "arc": "Perception → Contextual Understanding → Context-Aware Action",
-  "one_line": "Perception (SELD) → Contextual Understanding (ASC + SED + SELD) → Context-Aware Action (Active Noise Control, Soundscape Augmentation, and Intelligent Sound Management), progressing towards adaptive and human-aware intervention.",
-  "timing_note": "Per-section timings are not specified in the source materials and are left null pending presenter confirmation (Phase 6).",
+  "arc": "Acoustic Perception → Contextual Understanding → Context-Aware Reasoning → Purposeful Sound Intervention",
+  "one_line": "Acoustic Perception (SELD) → Contextual Understanding (ASC + SED + SELD) → Context-Aware Reasoning → Purposeful Sound Intervention through Active Noise Control, Soundscape Augmentation, and Intelligent Sound Management.",
+  "timing_note": "Per-section timings are not specified in the source materials.",
   "sections": [
     {
       "id": "0",
@@ -30,12 +30,12 @@
       "slides": "12–55",
       "presenter": "yeow",
       "timing_min": null,
-      "summary": "Spatial perception establishes what happens, when it happens, and where it occurs in an acoustic environment.",
+      "summary": "Build a robust spatial listener, reduce its dependence on dense labels, and make it queryable through language.",
       "subsections": [
         {"title": "Key ideas", "points": [
-          "Sound Event Localization and Detection (SELD): jointly identifying what happens, when it happens, and where it occurs.",
-          "The modern SELD pipeline: spatial audio inputs, features, learning, and representations for joint detection and localization.",
-          "Scaling perception through synthetic data, spatial self-supervision, audio-visual learning, and language interfaces."
+          "Sound Event Localization and Detection (SELD) identifies what sound occurs, when it occurs, and where it is located.",
+          "Label-efficient learning reduces dependence on dense labels through synthetic data, spatial self-supervised learning, audio-visual correspondence, and improved learning under data imbalance, including MAGENTA.",
+          "Language interfaces make spatial listening open-vocabulary and queryable through open-vocabulary SELD, text-queried localization, and spatial question answering."
         ]}
       ]
     },
@@ -47,12 +47,13 @@
       "slides": "56–79",
       "presenter": "tan",
       "timing_min": null,
-      "summary": "Contextual Understanding combines scene, event, and spatial information so that perception can guide later decisions.",
+      "summary": "Contextual Understanding integrates ASC, SED, and SELD, using scene information as context for event and spatial perception.",
       "subsections": [
         {"title": "Key ideas", "points": [
           "Complementary roles: ASC characterizes scenes, SED identifies events, and SELD adds location.",
-          "From independent pipelines to integrated and multi-task approaches that share contextual information.",
-          "Context-aware spatial perception and lightweight deployment for robust situational awareness."
+          "Integration progresses from independent ASC, SED, and SELD pipelines to sequential, multi-task, and context-sharing approaches.",
+          "Scene information provides context for event and spatial perception, including scene-conditioned SELD.",
+          "A practical ASC front-end must be accurate, robust, and lightweight; DCASE Task 1 provides the benchmark context for a lightweight ASC case study."
         ]}
       ]
     },
@@ -61,7 +62,7 @@
       "number": "3",
       "kind": "core",
       "title": "Context-Aware Action I — Active Noise Control",
-      "slides": "80–152",
+      "slides": "80–148",
       "presenter": "gan",
       "timing_min": null,
       "summary": "Active Noise Control is the largest technical stage, translating contextual acoustic information into practical control.",
@@ -79,7 +80,7 @@
       "number": "4",
       "kind": "core",
       "title": "Context-Aware Action II — Soundscape Augmentation",
-      "slides": "153–162",
+      "slides": "149–159",
       "presenter": "gan",
       "timing_min": null,
       "summary": "Soundscape Augmentation extends intervention beyond noise reduction towards positive, context-sensitive acoustic environments.",
@@ -96,7 +97,7 @@
       "number": "5",
       "kind": "core",
       "title": "Towards Intelligent Sound Management",
-      "slides": "163–186",
+      "slides": "160–182",
       "presenter": "gan",
       "timing_min": null,
       "summary": "Intelligent Sound Management applies sensing, control, and rendering to adaptive listening for hearables.",
@@ -113,7 +114,7 @@
       "number": "6",
       "kind": "framing",
       "title": "Conclusions & New Research Activities",
-      "slides": "187–191",
+      "slides": "183–186",
       "presenter": "all",
       "timing_min": null,
       "summary": "The tutorial closes by connecting physical control with semantic, contextual, and human-aware intervention.",

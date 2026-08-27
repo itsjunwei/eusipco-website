@@ -131,7 +131,7 @@ Watch it run under the **Actions** tab. When the *Deploy site to GitHub Pages* j
 (green tick, ~1 min), the job summary and **Settings → Pages** both show your live URL.
 
 Open the URL. You should see the full site — hero, abstract, presenters, the outline, the
-downloads panel (showing "after the session"), and all 103 references.
+released tutorial-deck download, and all 103 references.
 
 ---
 
@@ -163,33 +163,21 @@ to drop onto your closing slide. Scan it with a phone to confirm it opens the si
 
 ---
 
-## 5. Release the slides after the session
+## 5. Update the released slides
 
-Slides are intentionally withheld until after the talk (the site shows "available after the
-session"). When you're ready to publish them:
+The approved 186-slide full deck is published under `site/downloads/`. To replace it with
+a newer approved export, keep the existing filename and verify the page count before syncing:
 
-1. **Make the PDFs.** If you have one exported full-deck PDF:
-   ```powershell
-   python build\split_deck.py split path\to\full_deck.pdf --out build\_slides
-   ```
-   Or build the full deck from the four section PDFs already in `source_materials/`:
-   ```powershell
-   python build\split_deck.py merge --out build\_slides\full_deck.pdf `
-     source_materials\Tutorial_Intro_1-to-11.pdf `
-     source_materials\Tutorial_JW_12-to-55.pdf `
-     source_materials\Tutorial_Joseph_56-to-79.pdf `
-     source_materials\Tutorial_ProfGan_80-to-191.pdf
-   ```
-2. **Copy the approved PDFs** into `site/downloads/` (e.g. `full_deck.pdf`, `tutorial_yeow.pdf`, …).
-3. **Flip them live** in `content/meta.json` → `downloads.items`: for each released item set
-   `"status": "available"` and `"file": "downloads/<filename>.pdf"`. Then:
+1. **Replace the approved PDF** in `site/downloads/`.
+2. **Verify `content/meta.json`** still describes the downloadable file truthfully.
+3. **Sync and publish:**
    ```powershell
    python build\sync_content.py
    git add site/downloads content/meta.json site/assets/data/meta.json
-   git commit -m "Release tutorial slides"
+   git commit -m "Update tutorial slides"
    git push
    ```
-   The download cards turn into working links automatically.
+   The download card continues to use structured metadata as its source of truth.
 
 > GitHub caps individual files at 100 MB. The full deck is well under that; if any single
 > PDF is larger, compress it (e.g. Ghostscript) before committing.

@@ -327,7 +327,7 @@ S2 = [
 register(S2, "2", "joseph-doc", "s2-")
 
 # ---------------------------------------------------------------------------
-# SECTION 3 — Active Noise Control (W.-S. Gan), slides 80–152.
+# SECTION 3 — Active Noise Control (W.-S. Gan), slides 80–148.
 # Source: anc-authors + anc-others (AI-ANC.pdf). DOIs present in source.
 # ---------------------------------------------------------------------------
 S3a = [
@@ -477,8 +477,8 @@ register(S3b, "3", "anc-others", "s3b-")
 # ---------------------------------------------------------------------------
 # SECTIONS 4 & 5 — Active Sound Intervention (W.-S. Gan).
 # Source: asi-authors + asi-others (ASI.pdf). Split by topic:
-#   4 Soundscape Augmentation (slides 153–162)
-#   5 Intelligent Sound Management / hearables (slides 163–186)
+#   4 Soundscape Augmentation (slides 149–159)
+#   5 Intelligent Sound Management / hearables (slides 160–182)
 # DOIs present in source except where noted.
 # ---------------------------------------------------------------------------
 S4a = [  # asi-authors -> soundscape (section 4) unless noted
@@ -641,4 +641,3 @@ OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-
 print(f"Wrote {OUT} — {len(ALL)} unique references")
 for s in sorted(by_section):
     print(f"  section {s}: {by_section[s]}")
-

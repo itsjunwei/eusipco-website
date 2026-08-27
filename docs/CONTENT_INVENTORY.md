@@ -22,8 +22,8 @@ was silent, the default chosen is noted in the Notes column and logged in `PROGR
 | 4 | Presenter bios (×3) | user-supplied / public pages | **Ship** | P1→P4 | Bios to be confirmed by Gan & Tan in Phase 6 |
 | 5 | Presenter headshots (×3) | user-supplied | **Ship** | P4 | Placeholder initials-avatar until images provided |
 | 6 | Tutorial outline — 5 sections, presenter-attributed, timings | tutorial-outline-flow.md | **Ship** | P1→P4 | outline.json is source of truth; timings TBD, flag |
-| 7 | Slide downloads — full deck PDF | source_materials PDFs | **Ship (gated)** | P4–P5 | "Available after the session," flip live post-talk |
-| 8 | Slide downloads — 3 per-presenter PDFs | split via build/split_deck.py | **Ship (gated)** | P4 | Intro+JW / Tan / Gan splits already exist as PDFs |
+| 7 | Slide downloads — full deck PDF | approved full-deck PDF | **Ship (released)** | P4–P5 | Single 186-slide full-deck download |
+| 8 | Slide downloads — 3 per-presenter PDFs | split via build/split_deck.py | **Cut** | P4 | Removed by presenter request |
 | 9 | References — grouped by section, IEEE format, DOI/arXiv links | reference_lists/ + in-deck citations | **Ship** | P1→P2 | Primary literature only; verified flag per entry |
 | 10 | Contact + QR code | user + build/make_qr.py | **Ship** | P4–P5 | High error-correction SVG for closing slide |
 | 11 | Footer — affiliation, copyright, last-updated | standard | **Ship** | P4 | Smart Nation TRANS Lab @ NTU |

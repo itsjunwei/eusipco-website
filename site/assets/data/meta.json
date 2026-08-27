@@ -1,15 +1,15 @@
 {
   "schema": "meta/v1",
-  "note": "Site-level metadata. Abstract and learning outcomes are drafted from the tutorial materials and marked draft:true pending presenter confirmation (Phase 6). Location/room is a placeholder.",
+  "note": "Site-level metadata for the finalized tutorial structure and released full-deck download.",
   "tutorial": {
     "title": "Environmental Acoustic Intelligence",
     "subtitle": "From Acoustic Perception towards Context-Aware Sound Intervention",
     "tagline": "Hear → Understand → Reason → Act",
-    "arc": "Perception → Contextual Understanding → Context-Aware Action → Purposeful Sound Intervention"
+    "arc": "Acoustic Perception → Contextual Understanding → Context-Aware Reasoning → Purposeful Sound Intervention"
   },
   "event": {
     "conference": "EUSIPCO 2026",
-    "conference_long": "33rd European Signal Processing Conference",
+    "conference_long": "34th European Signal Processing Conference",
     "tutorial_number": "Tutorial #2",
     "date": "31 August 2026",
     "date_iso": "2026-08-31"
@@ -23,13 +23,13 @@
   },
   "abstract": {
     "draft": false,
-    "text": "Environmental Acoustic Intelligence moves from sensing acoustic environments towards understanding them and supporting purposeful intervention. The tutorial follows the progression Hear → Understand → Reason → Act. It begins with spatial perception through Sound Event Localization and Detection (SELD), including scalable data-centric learning and language interfaces that broaden spatial acoustic information. It then combines Acoustic Scene Classification (ASC), Sound Event Detection (SED), and SELD to turn scene, event, and spatial cues into Contextual Understanding. The second half addresses Context-Aware Action: AI-assisted Active Noise Control for practical acoustic challenges, Soundscape Augmentation beyond noise reduction, and Intelligent Sound Management for hearables. Together, these directions extend intervention towards adaptive, human-aware systems that listen with understanding and act with purpose."
+    "text": "Environmental Acoustic Intelligence moves from sensing acoustic environments towards understanding them and supporting purposeful intervention. The tutorial follows the progression Hear → Understand → Reason → Act. It begins with Sound Event Localization and Detection (SELD) as spatial perception, then examines label-efficient learning to reduce dependence on dense annotations and language interfaces that make spatial listening open-vocabulary and queryable. It then combines Acoustic Scene Classification (ASC), Sound Event Detection (SED), and SELD to turn scene, event, and spatial cues into Contextual Understanding. The second half addresses Context-Aware Action: AI-assisted Active Noise Control for practical acoustic challenges, Soundscape Augmentation beyond noise reduction, and Intelligent Sound Management for hearables. Together, these directions extend intervention towards adaptive, human-aware systems that listen with understanding and act with purpose."
   },
   "learning_outcomes": {
-    "draft": true,
+    "draft": false,
     "items": [
       "Explain how Sound Event Localization and Detection (SELD) builds spatial acoustic perception by identifying what happens, when it happens, and where it occurs.",
-      "Describe the modern SELD pipeline and the data-centric and language-enabled developments that broaden spatial perception.",
+      "Compare label-efficient learning approaches for SELD and explain how language interfaces make spatial perception open-vocabulary and queryable.",
       "Explain how Acoustic Scene Classification (ASC), Sound Event Detection (SED), and SELD integrate to form Contextual Understanding.",
       "Discuss how AI-assisted Active Noise Control addresses nonlinearity, slow adaptation, acoustic-path variation, and generalization.",
       "Explain how Soundscape Augmentation moves beyond noise reduction towards positive acoustic environments.",
@@ -38,9 +38,9 @@
   },
   "downloads": {
     "release_policy": "released",
-    "deck_note": "Full tutorial deck is 191 slides, confirmed by the presenter against the source PPTX on 2026-08-27. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
+    "deck_note": "Full tutorial deck is 186 slides. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
     "items": [
-      {"id": "full", "label": "Tutorial slides", "presenter": "all", "slides": "191 slides", "file": "downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf", "status": "available"}
+      {"id": "full", "label": "Tutorial slides", "presenter": "all", "slides": "186 slides", "file": "downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf", "status": "available"}
     ]
   },
   "contact": {

@@ -7,7 +7,7 @@
 ## 0. Opening (Slides 1–11)
 - Title, presenter introductions, lab overview (Smart Nation TRANS Lab @ NTU)
 - **Framing: Hear → Understand → Reason → Act**
-  - The four-stage arc: Perception → Contextual Understanding → Context-Aware Action → Purposeful Sound Intervention
+  - The four-stage arc: Acoustic Perception → Contextual Understanding → Context-Aware Reasoning → Purposeful Sound Intervention
 - The Chinese character 聽 (听) as a metaphor for intelligent listening — parallel to agentic AI (observe → understand → reason → act)
 - Copyright & disclaimer
 - **Motivation:** why acoustics matters for smart cities (noise as pollutant + bio-indicator)
@@ -39,11 +39,11 @@
 
 ### 1.3 Label-Efficient / Data-Centric Learning
 - Why SELD learning becomes data-centric (label dimensions grow: class → time → direction → distance)
-- **Three routes to scalable supervision:**
+- **Label-efficient learning routes:**
   1. Synthetic scene generation (benefits vs. domain gap)
   2. Spatial self-supervised learning (invariance vs. equivariance; MC-SimCLR, w2v-SELD, source-aware SSL)
-  3. Audio-visual correspondence (vision as training-time supervision)
-- Long-tail class imbalance case study → **MAGENTA** (decoupled error + adaptive class weighting)
+  3. Audio-visual correspondence and learning
+- Improved learning under long-tail class imbalance, including **MAGENTA** (decoupled error + adaptive class weighting)
 - Synthetic pretraining for reusable backbones (PSELDNets)
 
 ### 1.4 Language as an Interface to SELD
@@ -52,7 +52,7 @@
   - Open-vocabulary SELD (embed-ACCDOA)
   - Text-queried localization
   - Spatial question answering (BAT, SPUR)
-- **Section recap:** Build Spatial Perception → Learn With Less Supervision → Add Language Interfaces
+- **Section recap:** Build a Robust Spatial Listener → Reduce Dependence on Dense Labels → Make It Queryable Through Language
 
 ---
 
@@ -74,16 +74,16 @@
 
 ### 2.3 Integrating ASC + SELD (Context-Aware Spatial Perception)
 - From semantic information to contextual understanding (more info ≠ better understanding)
-- **Use case:** ASC + SELD for hazard-aware situational awareness (wearables)
-- Soft scene-conditioning of SELD models
-- ASC as an enabling front-end component — must be accurate, robust, **lightweight**
-- **DCASE Task 1** as the benchmark driving lightweight ASC research
+- Scene information as context for event and spatial perception
+- Scene-conditioned SELD
+- ASC as a practical front-end component — must be accurate, robust, **lightweight**
+- **DCASE Task 1** as the benchmark and case-study context for lightweight ASC
 - Case study: ultra-lightweight ASC model (Dilated Inception + Frequency Positional Encoding + Spatial Attention)
 - **Section takeaways:** complementary tasks → integration evolution → contextual understanding enables action
 
 ---
 
-## 3. Context-Aware Action, Part I — Active Noise Control (Slides 80–152)
+## 3. Context-Aware Action, Part I — Active Noise Control (Slides 80–148)
 *Largest technical section — organized around 4 core ANC challenges*
 
 ### 3.1 ANC Fundamentals
@@ -130,7 +130,7 @@
 
 ---
 
-## 4. Context-Aware Action, Part II — Soundscape Augmentation (Slides 153–162)
+## 4. Context-Aware Action, Part II — Soundscape Augmentation (Slides 149–159)
 - Paradigm shift: beyond silence → **positive soundscapes** (ISO 12913)
 - Sense → Analyse → Augment loop ("acoustic perfume")
 - ARAUS dataset (affective response to augmented soundscapes) + related datasets
@@ -140,7 +140,7 @@
 
 ---
 
-## 5. Towards Intelligent Sound Management (Slides 163–186)
+## 5. Towards Intelligent Sound Management (Slides 160–182)
 - AR/MR audio processing framework for hearables (sense, control, render)
 - **oPEAR**: intelligent open-ear smart glasses research thrusts
   - **(A)** Direction-Preserving ANC via FiLM-conditioned control filter estimation
@@ -151,7 +151,7 @@
 
 ---
 
-## 6. Conclusions and New Research Activities (Slides 187–191)
+## 6. Conclusions and New Research Activities (Slides 183–186)
 - **Capability Ladder for Active Sound Intervention (ASI):**
   Physical Layer → Acoustic/Spatial Features → Semantic Understanding → Context-Aware Decision → Human-Aware & Adaptive
 - Unified dual-rate framework: fast **Perceive→Act** control loop + slower **Intelligence & Adaptation** plane (ASC/SELD, human feedback, continual learning)
@@ -162,10 +162,8 @@
 ## High-Level Arc (One-Line Summary)
 
 ```
-Perception (SELD)  →  Integration (ASC+SED+SELD → Context)  →  Action
-                                                                  ├── Active Noise Control
-                                                                  ├── Soundscape Augmentation
-                                                                  └── Intelligent Sound Management (hearables)
-        ↓ underpinned throughout by:
-   Label-efficient / data-centric learning  +  Language interfaces  +  Human/context awareness
+Acoustic Perception
+  → Contextual Understanding
+  → Context-Aware Reasoning
+  → Purposeful Sound Intervention
 ```

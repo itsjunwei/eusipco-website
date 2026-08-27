@@ -42,5 +42,6 @@ docs/               CONTENT_INVENTORY.md (scope), PROGRESS.md (running log).
 ## Publishing rules (from pretext.md)
 
 - Outline + references publish immediately.
-- Slide PDFs publish with a note **"available after the session,"** then flip live post-talk.
+- Slide availability is controlled by `content/meta.json`; released items use
+  `status: "available"` and a public file path under `site/downloads/`.
 - Excluded from the site entirely: speaker notes, spoken script, PPTX source, unpublished results.

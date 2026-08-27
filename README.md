@@ -17,7 +17,7 @@ site/               The deployed site (this folder is what GitHub Pages serves).
   assets/js/          app.js (loads assets/data/*.json and renders).
   assets/data/        Deployed copy of content/*.json (produced by sync_content.py).
   assets/img/         qr.svg (generated), favicons, etc.
-  downloads/          Public slide PDFs (added after the session).
+  downloads/          Public slide PDFs.
 build/              Utility scripts (not deployed).
   sync_content.py     content/*.json  →  site/assets/data/*.json
   build_references.py Rebuilds content/references.json from the reference lists.
@@ -47,8 +47,7 @@ python -m http.server 8000
 
 ## Deploy
 
-See **[docs/DEPLOY.md](docs/DEPLOY.md)** for the full step-by-step guide (create the
-repo, enable Pages, generate the QR, release slides post-session).
+See **[docs/DEPLOY.md](docs/DEPLOY.md)** for the deployment and maintenance guide.
 
 ## Requirements for the build scripts
 

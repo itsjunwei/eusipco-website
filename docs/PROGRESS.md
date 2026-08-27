@@ -350,3 +350,29 @@ elimination that is Gan's portrait (eltan=Tan, yjw=Yeow), so it was used and ren
 `gan.png` on the site. Confirm if that mapping is wrong.
 
 **Not done by me (no git access):** `git commit` + `git push`.
+
+---
+
+## Tutorial structure alignment — 2026-08-27
+
+**Done**
+- Updated the finalized tutorial length to 186 slides and synchronized the ranges
+  1–11, 12–55, 56–79, 80–148, 149–159, 160–182, and 183–186.
+- Updated the four-stage conceptual arc to Acoustic Perception → Contextual
+  Understanding → Context-Aware Reasoning → Purposeful Sound Intervention while
+  preserving Hear → Understand → Reason → Act and the technical section grouping.
+- Reframed Spatial Perception around SELD, label-efficient learning, and distinct
+  language interfaces; reframed Contextual Understanding around ASC/SED/SELD
+  integration, scene context, DCASE Task 1, and lightweight ASC.
+- Finalized the abstract and learning outcomes metadata, corrected the conference
+  edition to the 34th, and removed the stale after-session download fallback.
+- Updated active build and deployment documentation and synchronized canonical JSON
+  into `site/assets/data/`.
+
+**Verified**
+- The released PDF contains 186 pages; boundary slide titles agree with the finalized
+  section ranges.
+- JSON parsing, Python syntax, JavaScript syntax, canonical/deployed hash equality,
+  range continuity, and local browser rendering passed with no JavaScript errors.
+- Remaining `191` occurrences are confined to historical entries earlier in this log
+  and the legacy private source filename; active site metadata contains none.
