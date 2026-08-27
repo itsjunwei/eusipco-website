@@ -37,16 +37,15 @@
     ]
   },
   "downloads": {
-    "release_policy": "after_session",
-    "release_note": "The full tutorial deck will be available for download after the session.",
+    "release_policy": "released",
     "deck_note": "Full tutorial deck is 191 slides, confirmed by the presenter against the source PPTX on 2026-08-27. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
     "items": [
-      {"id": "full", "label": "Full tutorial deck", "presenter": "all", "slides": "191 slides", "file": null, "status": "pending", "gated": true}
+      {"id": "full", "label": "Tutorial slides", "presenter": "all", "slides": "191 slides", "file": "downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf", "status": "available"}
     ]
   },
   "contact": {
     "email": null,
     "qr": null
   },
-  "last_updated": "2026-08-26"
+  "last_updated": "2026-08-27"
 }

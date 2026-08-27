@@ -120,11 +120,33 @@
     const nameById = {};
     (people.people || []).forEach((p) => (nameById[p.id] = abbrev(p.name)));
     const who = (id) => (id === "all" ? "All" : nameById[id] || id);
-    const notice = $("#dlNotice span");
-    if (notice && meta.downloads.release_note) notice.textContent = meta.downloads.release_note;
+    const notice = $("#dlNotice");
+    const allAvailable = meta.downloads.items.every((d) => d.status === "available" && d.file);
+    if (notice) {
+      if (allAvailable) {
+        notice.style.display = "none";
+      } else {
+        const span = $("span", notice);
+        if (span && meta.downloads.release_note) span.textContent = meta.downloads.release_note;
+      }
+    }
+    const tutTitle = meta.tutorial
+      ? `${esc(meta.tutorial.title)}: ${esc(meta.tutorial.subtitle)}`
+      : "";
+    const confLine = meta.event
+      ? `${esc(meta.event.conference)} · ${esc(meta.event.tutorial_number)}`
+      : "";
     host.innerHTML = meta.downloads.items.map((d) => {
       const full = d.id === "full";
       const available = d.status === "available" && d.file;
+      if (available && full) {
+        const inner = `<span class="dl__ic">${dlIcon}</span>
+          <div><div class="dl__t">${esc(d.label)}</div>
+          <div class="dl__m">${tutTitle}</div>
+          <div class="dl__m">${confLine} · ${esc(d.slides)} · PDF</div></div>
+          <span class="dl__state dl__state--soon">View slides (PDF) ↗</span>`;
+        return `<a class="dl dl--full" href="${esc(d.file)}" target="_blank" rel="noopener noreferrer">${inner}</a>`;
+      }
       const state = available
         ? '<span class="dl__state dl__state--soon">Download</span>'
         : `<span class="dl__state${d.gated ? " dl__state--soon" : ""}">${d.gated ? "After session" : "Pending"}</span>`;
@@ -132,7 +154,7 @@
         <div><div class="dl__t">${esc(d.label)}</div>
         <div class="dl__m">${esc(who(d.presenter))} · ${esc(d.slides)}${full ? " · PDF" : ""}</div></div>${state}`;
       return available
-        ? `<a class="dl${full ? " dl--full" : ""}" href="${esc(d.file)}" download>${inner}</a>`
+        ? `<a class="dl${full ? " dl--full" : ""}" href="${esc(d.file)}" target="_blank" rel="noopener noreferrer">${inner}</a>`
         : `<div class="dl${full ? " dl--full" : ""}">${inner}</div>`;
     }).join("");
   }
