@@ -1,6 +1,6 @@
 {
   "schema": "people/v1",
-  "note": "Bios drafted from public NTU/SNTL pages and the tutorial materials. verified=false until each presenter confirms their own bio, title, and links (Phase 6). Headshots are placeholders (initials avatars) until images are provided.",
+  "note": "Presenter credentials and research lines are verbatim from the presenters' own tutorial title slide (\"Tutorial Team\"). Headshots in site/assets/img/ were provided by the presenters.",
   "affiliation_common": "School of Electrical and Electronic Engineering & Smart Nation TRANS Lab, Nanyang Technological University (NTU), Singapore",
   "people": [
     {
@@ -9,23 +9,16 @@
       "name": "Woon-Seng Gan",
       "display_name": "Prof. Woon-Seng Gan",
       "honorific": "Prof.",
-      "title": "Professor; Director, Smart Nation TRANS Lab",
-      "affiliation": "School of Electrical and Electronic Engineering, NTU Singapore",
       "sections": ["0", "3", "4", "5", "6"],
-      "research_areas": [
-        "Active noise control",
-        "AI for audio",
-        "Soundscape augmentation",
-        "Spatial audio for hearables"
-      ],
-      "bio": "Woon-Seng Gan is a Professor of Audio Engineering in the School of Electrical and Electronic Engineering at NTU Singapore, and Director of the Smart Nation TRANS Lab (evolved from the Texas Instruments DSP Elite Lab he leads). His research spans active noise control, AI for audio, soundscape augmentation, and spatial audio for hearables. He is an IEEE Distinguished Lecturer.",
+      "credentials": "Professor of Audio Engineering @ NTU • Fellow of Audio Engineering Society • President of Asia Pacific Signal and Information Processing • Distinguished Lecturer IEEE Signal Processing Society",
+      "research": null,
+      "headshot": "assets/img/gan.png",
       "links": {
         "profile": "https://dr.ntu.edu.sg/entities/person/Gan-Woon-Seng",
         "website": "https://sites.google.com/view/profwoon-seng-gan",
         "scholar": "https://scholar.google.com/citations?user=typLIXwAAAAJ"
       },
-      "headshot": null,
-      "verified": false
+      "verified": true
     },
     {
       "id": "tan",
@@ -34,22 +27,15 @@
       "display_name": "Dr. Ee-Leng Tan",
       "also_known_as": "Joseph",
       "honorific": "Dr.",
-      "title": "Senior Research Fellow",
-      "affiliation": "School of Electrical and Electronic Engineering & Smart Nation TRANS Lab, NTU Singapore",
       "sections": ["2"],
-      "research_areas": [
-        "Acoustic scene classification",
-        "Sound event detection",
-        "Machine learning for audio",
-        "IoT acoustic sensing"
-      ],
-      "bio": "Ee-Leng Tan (Joseph) is a Senior Research Fellow in the School of Electrical and Electronic Engineering and the Smart Nation TRANS Lab at NTU Singapore. His work focuses on machine learning for environmental audio — acoustic scene classification, sound event detection, and end-to-end IoT systems for urban sound sensing.",
+      "credentials": "Principal Research Fellow @ NTU • Associate Editor of IEEE Signal Processing Letters",
+      "research": "Acoustic Scene Classification • Audio & Image Processing • Directional Audio",
+      "headshot": "assets/img/tan.png",
       "links": {
         "scholar": "https://scholar.google.com.sg/citations?user=JPzSzloAAAAJ",
         "researchgate": "https://www.researchgate.net/profile/Ee-Leng-Tan"
       },
-      "headshot": null,
-      "verified": false
+      "verified": true
     },
     {
       "id": "yeow",
@@ -57,21 +43,14 @@
       "name": "Jun-Wei Yeow",
       "display_name": "Mr. Jun-Wei Yeow",
       "honorific": "Mr.",
-      "title": "PhD Candidate",
-      "affiliation": "School of Electrical and Electronic Engineering, NTU Singapore",
       "sections": ["1"],
-      "research_areas": [
-        "Sound event localization and detection (SELD)",
-        "Spatial audio and microphone arrays",
-        "Data-centric and label-efficient deep learning",
-        "Language interfaces for spatial audio"
-      ],
-      "bio": "Jun-Wei Yeow is a PhD candidate in the School of Electrical and Electronic Engineering at NTU Singapore. His research develops data-centric and label-efficient deep learning for sound event localization and detection (SELD), spanning spatial-audio features, model architectures, 3-D SELD with distance estimation, and language interfaces to spatial perception.",
+      "credentials": "Ph.D Researcher @ NTU",
+      "research": "Sound Event Localization & Detection • Machine Learning • Real-Time Signal Processing",
+      "headshot": "assets/img/yeow.png",
       "links": {
         "scholar": "https://scholar.google.com/citations?user=iQpCWVYAAAAJ&hl=en"
       },
-      "headshot": null,
-      "verified": false
+      "verified": true
     }
   ]
 }

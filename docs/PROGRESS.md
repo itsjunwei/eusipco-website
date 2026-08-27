@@ -318,3 +318,35 @@ All applied citation changes were independently confirmed; nothing was accepted 
 
 **Not done by me (no git access):** `git commit` + `git push` — files written to the folder; the
 user pushes to publish.
+
+---
+
+## Presenters section redesign  ·  2026-08-27
+
+Reworked the Presenters/About Us section to match the "Tutorial Team" title slide.
+
+**Done**
+- **Layout:** each presenter is now a stacked card — rounded-square photo on the left, a
+  teal divider, then bold name + credential line + (where given) a "Research:" line — in
+  `app.js` `renderPeople` and the `.person*` styles in `styles.css`. Cards use the site's
+  theme-aware `--surface` (not the slide's solid navy, per instruction), with `--accent`
+  for the divider. `.people` is now a single stacked column at all widths.
+- **Verbatim content** written into `content/people.json` as `credentials` / `research`
+  fields (exact text, no paraphrase, no added/removed credentials, order unchanged).
+  Marked `verified:true` (sourced from the presenters' own slide).
+- **Photos:** copied `source_materials/profile_pic/` images into `site/assets/img/` as
+  `gan.png`, `tan.png`, `yeow.png` and wired each into its card via `headshot`. The site
+  never references `source_materials/` directly.
+- **Header** replaced with the exact attribution line: "Presenters from the Smart Nation
+  TRANS Lab, School of Electrical and Electronic Engineering, NTU Singapore". Removed the
+  old lead paragraph, which was now a duplicate of that line.
+- Jun-Wei's Google Scholar link left untouched; no other section changed.
+
+**Verified (380px):** 3 cards, all photos load, credential/research text wraps cleanly,
+Scholar link present, no horizontal overflow, no JS errors.
+
+**Flag:** the brief named Gan's photo `gws.png`, but the actual file is `ews.png` — by
+elimination that is Gan's portrait (eltan=Tan, yjw=Yeow), so it was used and renamed to
+`gan.png` on the site. Confirm if that mapping is wrong.
+
+**Not done by me (no git access):** `git commit` + `git push`.

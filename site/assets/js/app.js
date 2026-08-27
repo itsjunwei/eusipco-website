@@ -62,23 +62,24 @@
     const host = $("#people");
     if (!host) return;
     const initials = (n) => n.split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+    const linkLabel = { profile: "Profile", scholar: "Scholar", researchgate: "ResearchGate", website: "Website" };
     host.innerHTML = people.people.map((p) => {
-      const tags = (p.research_areas || []).slice(0, 3)
-        .map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-      const links = Object.entries(p.links || {}).map(([k, v]) => {
-        const label = { profile: "Profile", scholar: "Scholar", researchgate: "ResearchGate", website: "Website" }[k] || k;
-        return `<a href="${esc(v)}" rel="noopener">${esc(label)} ↗</a>`;
-      }).join("");
-      const avatar = p.headshot
-        ? `<img class="avatar" src="${esc(p.headshot)}" alt="Portrait of ${esc(p.display_name)}">`
-        : `<div class="avatar" aria-hidden="true">${esc(initials(p.name))}</div>`;
+      const photo = p.headshot
+        ? `<img class="person__photo" src="${esc(p.headshot)}" alt="Portrait of ${esc(p.display_name)}" width="88" height="88" loading="lazy">`
+        : `<div class="person__photo person__photo--ph" aria-hidden="true">${esc(initials(p.name))}</div>`;
+      const links = Object.entries(p.links || {}).map(([k, v]) =>
+        `<a href="${esc(v)}" rel="noopener">${esc(linkLabel[k] || k)} ↗</a>`).join("");
+      const research = p.research
+        ? `<p class="person__research"><span class="lbl">Research:</span> ${esc(p.research)}</p>` : "";
       return `<article class="person">
-        <div class="person__top">${avatar}
-          <div><div class="person__name">${esc(p.display_name)}</div>
-          <div class="person__role">${esc(p.title)}</div></div></div>
-        <p class="person__bio">${esc(p.bio)}</p>
-        <div class="tags">${tags}</div>
-        <div class="person__links">${links || '<span style="color:var(--faint)">Links to follow</span>'}</div>
+        ${photo}
+        <span class="person__rule" aria-hidden="true"></span>
+        <div class="person__content">
+          <div class="person__name">${esc(p.display_name)}</div>
+          <p class="person__cred">${esc(p.credentials)}</p>
+          ${research}
+          ${links ? `<div class="person__links">${links}</div>` : ""}
+        </div>
       </article>`;
     }).join("");
   }
