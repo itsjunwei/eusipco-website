@@ -380,6 +380,19 @@ h1, h2, h3 { text-wrap: balance; line-height: 1.15; margin: 0; }
 @media (min-width: 720px) { .contact-card { grid-template-columns: 1fr auto; } }
 .contact-card h2 { color: #fff; font-size: clamp(1.4rem, 1.1rem + 1.4vw, 1.9rem); }
 .contact-card p { color: #C9DCE0; margin: .6rem 0 0; max-width: 44ch; }
+.tutorial-contact { padding-left: 1.4rem; border-left: 1px solid rgba(255,255,255,.22); }
+.tutorial-contact h3 {
+  margin: 0; color: var(--teal-300); font-family: var(--mono); font-size: .72rem;
+  font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+}
+.tutorial-contact__email {
+  display: inline-block; margin-top: .65rem; color: #fff; font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.tutorial-contact__email:hover { color: var(--teal-300); }
+@media (max-width: 719px) {
+  .tutorial-contact { padding: 1.2rem 0 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.22); }
+}
 .qr {
   width: 9.5rem; height: 9.5rem; border-radius: 12px; background: #fff; display: grid; place-items: center;
   color: var(--navy-700); text-align: center; font-family: var(--mono); font-size: .66rem; padding: .8rem;

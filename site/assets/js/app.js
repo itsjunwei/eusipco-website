@@ -58,6 +58,21 @@
       `${meta.event.conference} · ${meta.event.tutorial_number} · Updated ${meta.last_updated || ""}`.trim();
   }
 
+  function renderContact(meta) {
+    const host = $("#tutorialContact");
+    if (!host) return;
+    const email = meta.contact && meta.contact.email;
+    if (!email) {
+      host.hidden = true;
+      host.innerHTML = "";
+      return;
+    }
+    host.hidden = false;
+    host.innerHTML = `<h3>Tutorial contact</h3>
+      <p>Questions about the tutorial or materials?</p>
+      <a class="tutorial-contact__email" href="${esc(`mailto:${email}`)}">${esc(email)}</a>`;
+  }
+
   function renderPeople(people) {
     const host = $("#people");
     if (!host) return;
@@ -237,6 +252,7 @@
       renderHeroMeta(meta);
       renderAbstract(meta);
       renderOutcomes(meta);
+      renderContact(meta);
       renderPeople(people);
       renderOutline(outline);
       renderDownloads(meta, people);
