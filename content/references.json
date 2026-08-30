@@ -3,9 +3,9 @@
   "citation_style": "IEEE",
   "note": "Primary literature only. verification: 'web' = title/venue/year corroborated by an independent source during Phase 2; 'source-doi' = DOI/arXiv taken from the presenters' own curated publication lists (resolvable, not independently re-checked); 'unresolved' = no stable identifier found (batched for the user). Identifiers are never invented — only those found in a source list or confirmed on the web.",
   "verification_counts": {
-    "web": 43,
+    "web": 29,
     "source_doi": 60,
-    "unresolved": 0
+    "unresolved": 14
   },
   "sections": {
     "1": "Spatial Perception — Data-Centric AI for Acoustics",
@@ -754,7 +754,7 @@
     {
       "authors": "T. Heittola et al.",
       "title": "Sound event detection and context recognition",
-      "venue": "Proc. Akustiikkapäivät",
+      "venue": "Proceedings of Akustiikkapäivät",
       "year": 2011,
       "type": "conference",
       "id": "s2-01",
@@ -766,10 +766,10 @@
       ],
       "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
+      "verification": "unresolved",
+      "verified": false,
       "url": null,
-      "ieee": "T. Heittola et al., \"Sound event detection and context recognition,\" *Proc. Akustiikkapäivät*, 2011."
+      "ieee": "T. Heittola et al., \"Sound event detection and context recognition,\" *Proceedings of Akustiikkapäivät*, 2011."
     },
     {
       "authors": "T. Heittola et al.",
@@ -784,12 +784,12 @@
       "provenance": [
         "joseph-doc"
       ],
-      "doi": "10.1186/1687-4722-2013-1",
+      "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://doi.org/10.1186/1687-4722-2013-1",
-      "ieee": "T. Heittola et al., \"Context-dependent sound event detection,\" *EURASIP Journal on Audio, Speech, and Music Processing*, 2013. doi: 10.1186/1687-4722-2013-1."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "T. Heittola et al., \"Context-dependent sound event detection,\" *EURASIP Journal on Audio, Speech, and Music Processing*, 2013."
     },
     {
       "authors": "T. Lu et al.",
@@ -804,17 +804,17 @@
       "provenance": [
         "joseph-doc"
       ],
-      "doi": "10.1007/s00530-014-0424-7",
+      "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://doi.org/10.1007/s00530-014-0424-7",
-      "ieee": "T. Lu et al., \"Context-based environmental audio event recognition for scene understanding,\" *Multimedia Systems*, 2015. doi: 10.1007/s00530-014-0424-7."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "T. Lu et al., \"Context-based environmental audio event recognition for scene understanding,\" *Multimedia Systems*, 2015."
     },
     {
-      "authors": "H. L. Bear et al.",
+      "authors": "H.L. Bear et al.",
       "title": "Towards joint sound scene and polyphonic sound event recognition",
-      "venue": "Proc. Interspeech",
+      "venue": "Interspeech",
       "year": 2019,
       "type": "conference",
       "id": "s2-04",
@@ -825,16 +825,16 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "1904.10408",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/1904.10408",
-      "ieee": "H. L. Bear et al., \"Towards joint sound scene and polyphonic sound event recognition,\" *Proc. Interspeech*, 2019. arXiv:1904.10408."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "H.L. Bear et al., \"Towards joint sound scene and polyphonic sound event recognition,\" *Interspeech*, 2019."
     },
     {
       "authors": "N. Tonami et al.",
       "title": "Joint analysis of acoustic events and scenes based on multitask learning",
-      "venue": "Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA)",
+      "venue": "IEEE WASPAA",
       "year": 2019,
       "type": "conference",
       "id": "s2-05",
@@ -845,11 +845,11 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "1904.12146",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/1904.12146",
-      "ieee": "N. Tonami et al., \"Joint analysis of acoustic events and scenes based on multitask learning,\" *Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA)*, 2019. arXiv:1904.12146."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "N. Tonami et al., \"Joint analysis of acoustic events and scenes based on multitask learning,\" *IEEE WASPAA*, 2019."
     },
     {
       "authors": "N. Tonami et al.",
@@ -864,17 +864,17 @@
       "provenance": [
         "joseph-doc"
       ],
-      "doi": "10.1587/transinf.2020EDP7036",
+      "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://doi.org/10.1587/transinf.2020EDP7036",
-      "ieee": "N. Tonami et al., \"Joint analysis of sound events and acoustic scenes using multitask learning,\" *IEICE Transactions on Information and Systems*, 2021. doi: 10.1587/transinf.2020EDP7036."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "N. Tonami et al., \"Joint analysis of sound events and acoustic scenes using multitask learning,\" *IEICE Transactions on Information and Systems*, 2021."
     },
     {
       "authors": "K. Imoto et al.",
       "title": "Sound event detection by multitask learning of sound events and scenes with soft scene labels",
-      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "venue": "IEEE ICASSP",
       "year": 2020,
       "type": "conference",
       "id": "s2-07",
@@ -885,16 +885,16 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "2002.05848",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/2002.05848",
-      "ieee": "K. Imoto et al., \"Sound event detection by multitask learning of sound events and scenes with soft scene labels,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2020. arXiv:2002.05848."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "K. Imoto et al., \"Sound event detection by multitask learning of sound events and scenes with soft scene labels,\" *IEEE ICASSP*, 2020."
     },
     {
       "authors": "S. Tsubaki et al.",
       "title": "Joint analysis of acoustic scenes and sound events with weakly labeled data",
-      "venue": "Proc. Int. Workshop Acoust. Signal Enhancement (IWAENC)",
+      "venue": "IWAENC",
       "year": 2022,
       "type": "conference",
       "id": "s2-08",
@@ -905,16 +905,16 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "2207.04357",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/2207.04357",
-      "ieee": "S. Tsubaki et al., \"Joint analysis of acoustic scenes and sound events with weakly labeled data,\" *Proc. Int. Workshop Acoust. Signal Enhancement (IWAENC)*, 2022. arXiv:2207.04357."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "S. Tsubaki et al., \"Joint analysis of acoustic scenes and sound events with weakly labeled data,\" *IWAENC*, 2022."
     },
     {
       "authors": "T. Komatsu et al.",
       "title": "Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss",
-      "venue": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+      "venue": "IEEE ICASSP",
       "year": 2020,
       "type": "conference",
       "id": "s2-09",
@@ -926,15 +926,15 @@
       ],
       "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://ieeexplore.ieee.org/document/9053702",
-      "ieee": "T. Komatsu et al., \"Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss,\" *Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)*, 2020."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "T. Komatsu et al., \"Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss,\" *IEEE ICASSP*, 2020."
     },
     {
       "authors": "K. Nada et al.",
       "title": "Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss",
-      "venue": "Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)",
+      "venue": "APSIPA",
       "year": 2021,
       "type": "conference",
       "id": "s2-10",
@@ -946,13 +946,13 @@
       ],
       "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://ieeexplore.ieee.org/document/9689320",
-      "ieee": "K. Nada et al., \"Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss,\" *Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)*, 2021."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "K. Nada et al., \"Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss,\" *APSIPA*, 2021."
     },
     {
-      "authors": "H. Zhang et al.",
+      "authors": "H. Zhang  et al.",
       "title": "An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing",
       "venue": "Applied Acoustics",
       "year": 2024,
@@ -966,17 +966,17 @@
       ],
       "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003682X24002172",
-      "ieee": "H. Zhang et al., \"An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing,\" *Applied Acoustics*, 2024."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "H. Zhang  et al., \"An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing,\" *Applied Acoustics*, 2024."
     },
     {
-      "authors": "D. de Waard et al.",
-      "title": "Effects of listening to music, and of using a handheld and handsfree telephone on cycling behaviour",
-      "venue": "Transportation Research Part F: Traffic Psychology and Behaviour",
-      "year": 2011,
-      "type": "journal",
+      "authors": "J.-W. Yeow, et al.",
+      "title": "Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system",
+      "venue": "AES International Conference on Headphone Technology",
+      "year": 2025,
+      "type": "conference",
       "id": "s2-12",
       "section": [
         "2"
@@ -986,17 +986,17 @@
       ],
       "doi": null,
       "arxiv": null,
-      "verification": "web",
-      "verified": true,
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1369847811000684",
-      "ieee": "D. de Waard et al., \"Effects of listening to music, and of using a handheld and handsfree telephone on cycling behaviour,\" *Transportation Research Part F: Traffic Psychology and Behaviour*, 2011."
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "J.-W. Yeow, et al., \"Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system,\" *AES International Conference on Headphone Technology*, 2025."
     },
     {
-      "authors": "J.-W. Yeow et al.",
-      "title": "Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system",
-      "venue": "Proc. AES Int. Conf. Headphone Technology",
+      "authors": "E.-L. Tan, et al.",
+      "title": "Acoustic scene classification using CNN-GRU Model without knowledge distillation",
+      "venue": "arXiv preprint",
       "year": 2025,
-      "type": "conference",
+      "type": "preprint",
       "id": "s2-13",
       "section": [
         "2"
@@ -1005,18 +1005,18 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "2509.14650",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/2509.14650",
-      "ieee": "J.-W. Yeow et al., \"Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system,\" *Proc. AES Int. Conf. Headphone Technology*, 2025. arXiv:2509.14650."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "E.-L. Tan, et al., \"Acoustic scene classification using CNN-GRU Model without knowledge distillation,\" *arXiv preprint*, 2025."
     },
     {
-      "authors": "E.-L. Tan et al.",
-      "title": "Acoustic scene classification using CNN-GRU model without knowledge distillation",
-      "venue": "arXiv preprint",
+      "authors": "D. Karasin et al.",
+      "title": "Domain-specific external data pre-training and device-aware distillation for data-efficient acoustic scene classification",
+      "venue": ",DCASe Task 1 Technical report",
       "year": 2025,
-      "type": "preprint",
+      "type": "report",
       "id": "s2-14",
       "section": [
         "2"
@@ -1025,11 +1025,11 @@
         "joseph-doc"
       ],
       "doi": null,
-      "arxiv": "2509.09931",
-      "verification": "web",
-      "verified": true,
-      "url": "https://arxiv.org/abs/2509.09931",
-      "ieee": "E.-L. Tan et al., \"Acoustic scene classification using CNN-GRU model without knowledge distillation,\" *arXiv preprint*, 2025. arXiv:2509.09931."
+      "arxiv": null,
+      "verification": "unresolved",
+      "verified": false,
+      "url": null,
+      "ieee": "D. Karasin et al., \"Domain-specific external data pre-training and device-aware distillation for data-efficient acoustic scene classification,\" *,DCASe Task 1 Technical report*, 2025."
     },
     {
       "authors": "X. Su, D. Shi, B. Wu, L. Ye, and W.-S. Gan",

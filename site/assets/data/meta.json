@@ -38,9 +38,9 @@
   },
   "downloads": {
     "release_policy": "released",
-    "deck_note": "Full tutorial deck is 186 slides. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
+    "deck_note": "Full tutorial deck is 189 slides. Single full-deck download only; per-presenter subset PDFs were removed by presenter request.",
     "items": [
-      {"id": "full", "label": "Tutorial slides", "presenter": "all", "slides": "186 slides", "file": "downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf", "status": "available"}
+      {"id": "full", "label": "Tutorial slides", "presenter": "all", "slides": "189 slides", "file": "downloads/EUSIPCO2026_Tutorial2_Environmental_Acoustic_Intelligence.pdf", "status": "available"}
     ]
   },
   "contact": {

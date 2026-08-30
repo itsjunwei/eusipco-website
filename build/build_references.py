@@ -12,7 +12,7 @@ Every entry starts verified=False; Phase 2 confirms authors/venue/pages/DOI.
 
 Provenance keys:
   jw-list     source_materials/reference_lists/Tutorial-JW-IEEE-References.md
-  joseph-doc  source_materials/reference_lists/Reference list (Joseph).docx
+  joseph-doc  source_materials/reference_lists/Joseph_Section3_References.docx
   anc-authors / anc-others  Selected Publications on AI-ANC.pdf
   asi-authors / asi-others  Selected Publications on ASI.pdf
 
@@ -115,27 +115,13 @@ VERIFY = {
     "s1-32": {"verification": "web"},
     "s1-33": {"arxiv": "2406.16058", "verification": "web"},
     "s1-34": {"arxiv": "2402.01591", "verification": "web"},
-    "s2-01": {"verification": "web"},
-    "s2-02": {"doi": "10.1186/1687-4722-2013-1", "verification": "web"},
-    "s2-03": {"doi": "10.1007/s00530-014-0424-7", "verification": "web"},
-    "s2-04": {"arxiv": "1904.10408", "verification": "web"},
-    "s2-05": {"arxiv": "1904.12146", "verification": "web"},
-    "s2-06": {"doi": "10.1587/transinf.2020EDP7036", "verification": "web"},
-    "s2-07": {"arxiv": "2002.05848", "verification": "web"},
-    "s2-08": {"arxiv": "2207.04357", "verification": "web"},
-    "s2-09": {"url": "https://ieeexplore.ieee.org/document/9053702", "verification": "web"},
-    "s2-10": {"url": "https://ieeexplore.ieee.org/document/9689320", "verification": "web"},
-    "s2-11": {"url": "https://www.sciencedirect.com/science/article/abs/pii/S0003682X24002172", "verification": "web"},
-    "s2-12": {"url": "https://www.sciencedirect.com/science/article/abs/pii/S1369847811000684", "verification": "web"},
-    "s2-13": {"arxiv": "2509.14650", "verification": "web"},
-    "s2-14": {"arxiv": "2509.09931", "verification": "web"},
     # Sound bubbles: source list had only a Semantic Scholar link; Nature Electronics DOI confirmed.
     "s4b-05": {"doi": "10.1038/s41928-024-01276-z", "url": None, "verification": "web"},
 }
 
 
 # ---------------------------------------------------------------------------
-# SECTION 1 — Spatial Perception (J.-W. Yeow), slides 12–55.  Source: jw-list.
+# SECTION 1 — Spatial Perception (J.-W. Yeow), slides 11–54.  Source: jw-list.
 # Source already IEEE-formatted; identifiers transcribed exactly as given.
 # ---------------------------------------------------------------------------
 S1 = [
@@ -276,58 +262,58 @@ S1 = [
 register(S1, "1", "jw-list", "s1-")
 
 # ---------------------------------------------------------------------------
-# SECTION 2 — Contextual Understanding (E.-L. Tan), slides 56–79.
+# SECTION 2 — Contextual Understanding (E.-L. Tan), slides 55–81.
 # Source: joseph-doc (titled "Section 3" there — see PROGRESS numbering note).
-# Source gave author/title/venue/year only; no DOIs (Phase 2 to fill).
+# Source gave author/title/venue/year only; no identifiers are added.
 # ---------------------------------------------------------------------------
 S2 = [
- dict(authors="T. Heittola, A. Mesaros, A. Eronen, and T. Virtanen",
+ dict(authors="T. Heittola et al.",
       title="Sound event detection and context recognition",
-      venue="Proc. Akustiikkapäivät", year=2011, type="conference"),
- dict(authors="T. Heittola, A. Mesaros, A. Eronen, and T. Virtanen",
+      venue="Proceedings of Akustiikkapäivät", year=2011, type="conference"),
+ dict(authors="T. Heittola et al.",
       title="Context-dependent sound event detection",
       venue="EURASIP Journal on Audio, Speech, and Music Processing", year=2013, type="journal"),
- dict(authors="T. Lu, G. Wang, and F. Su",
+ dict(authors="T. Lu et al.",
       title="Context-based environmental audio event recognition for scene understanding",
       venue="Multimedia Systems", year=2015, type="journal"),
- dict(authors="H. L. Bear, I. Nolasco, and E. Benetos",
+ dict(authors="H.L. Bear et al.",
       title="Towards joint sound scene and polyphonic sound event recognition",
-      venue="Proc. Interspeech", year=2019, type="conference"),
- dict(authors="N. Tonami, K. Imoto, M. Niitsuma, R. Yamanishi, and Y. Yamashita",
+      venue="Interspeech", year=2019, type="conference"),
+ dict(authors="N. Tonami et al.",
       title="Joint analysis of acoustic events and scenes based on multitask learning",
-      venue="Proc. IEEE Workshop Appl. Signal Process. Audio Acoust. (WASPAA)", year=2019, type="conference"),
- dict(authors="N. Tonami, K. Imoto, R. Yamanishi, and Y. Yamashita",
+      venue="IEEE WASPAA", year=2019, type="conference"),
+ dict(authors="N. Tonami et al.",
       title="Joint analysis of sound events and acoustic scenes using multitask learning",
       venue="IEICE Transactions on Information and Systems", year=2021, type="journal"),
- dict(authors="K. Imoto, N. Tonami, Y. Koizumi, M. Yasuda, R. Yamanishi, and Y. Yamashita",
+ dict(authors="K. Imoto et al.",
       title="Sound event detection by multitask learning of sound events and scenes with soft scene labels",
-      venue="Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)", year=2020, type="conference"),
- dict(authors="S. Tsubaki, K. Imoto, N. Tonami, R. Yamanishi, and Y. Yamashita",
+      venue="IEEE ICASSP", year=2020, type="conference"),
+ dict(authors="S. Tsubaki et al.",
       title="Joint analysis of acoustic scenes and sound events with weakly labeled data",
-      venue="Proc. Int. Workshop Acoust. Signal Enhancement (IWAENC)", year=2022, type="conference"),
- dict(authors="T. Komatsu, S. Watanabe, K. Miyazaki, and T. Hayashi",
+      venue="IWAENC", year=2022, type="conference"),
+ dict(authors="T. Komatsu et al.",
       title="Scene-dependent acoustic event detection with scene conditioning and fake-scene-conditioned loss",
-      venue="Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)", year=2020, type="conference"),
- dict(authors="K. Nada, K. Imoto, and T. Tsuchiya",
+      venue="IEEE ICASSP", year=2020, type="conference"),
+ dict(authors="K. Nada et al.",
       title="Multitask learning of acoustic scenes and events using dynamic weight adaptation based on multi-focal loss",
-      venue="Proc. Asia-Pacific Signal Inf. Process. Assoc. Annu. Summit Conf. (APSIPA ASC)", year=2021, type="conference"),
- dict(authors="H. Zhang, Y. Wang, and X. Li",
+      venue="APSIPA", year=2021, type="conference"),
+ dict(authors="H. Zhang  et al.",
       title="An event-scene cooperative analysis network with dual-stream attention convolution module and soft parameter-sharing",
       venue="Applied Acoustics", year=2024, type="journal"),
- dict(authors="D. de Waard, P. Schepers, W. Ormel, and K. Brookhuis",
-      title="Effects of listening to music, and of using a handheld and handsfree telephone on cycling behaviour",
-      venue="Transportation Research Part F: Traffic Psychology and Behaviour", year=2011, type="journal"),
- dict(authors="J.-W. Yeow, E.-L. Tan, S. Peksi, and W.-S. Gan",
+ dict(authors="J.-W. Yeow, et al.",
       title="Enhancing situational awareness in wearable audio devices using a lightweight sound event localization and detection system",
-      venue="Proc. AES Int. Conf. Headphone Technology", year=2025, type="conference"),
- dict(authors="E.-L. Tan, J.-W. Yeow, S. Peksi, and W.-S. Gan",
-      title="Acoustic scene classification using CNN-GRU model without knowledge distillation",
+      venue="AES International Conference on Headphone Technology", year=2025, type="conference"),
+ dict(authors="E.-L. Tan, et al.",
+      title="Acoustic scene classification using CNN-GRU Model without knowledge distillation",
       venue="arXiv preprint", year=2025, type="preprint"),
+ dict(authors="D. Karasin et al.",
+      title="Domain-specific external data pre-training and device-aware distillation for data-efficient acoustic scene classification",
+      venue=",DCASe Task 1 Technical report", year=2025, type="report"),
 ]
 register(S2, "2", "joseph-doc", "s2-")
 
 # ---------------------------------------------------------------------------
-# SECTION 3 — Active Noise Control (W.-S. Gan), slides 80–148.
+# SECTION 3 — Active Noise Control (W.-S. Gan), slides 82–150.
 # Source: anc-authors + anc-others (AI-ANC.pdf). DOIs present in source.
 # ---------------------------------------------------------------------------
 S3a = [
@@ -477,8 +463,8 @@ register(S3b, "3", "anc-others", "s3b-")
 # ---------------------------------------------------------------------------
 # SECTIONS 4 & 5 — Active Sound Intervention (W.-S. Gan).
 # Source: asi-authors + asi-others (ASI.pdf). Split by topic:
-#   4 Soundscape Augmentation (slides 149–159)
-#   5 Intelligent Sound Management / hearables (slides 160–182)
+#   4 Soundscape Augmentation (slides 151–160)
+#   5 Intelligent Sound Management / hearables (slides 161–183)
 # DOIs present in source except where noted.
 # ---------------------------------------------------------------------------
 S4a = [  # asi-authors -> soundscape (section 4) unless noted
@@ -574,29 +560,9 @@ register(S4b, None, "asi-others", "s4b-")
 # ---------------------------------------------------------------------------
 # Phase 2 corrections
 # ---------------------------------------------------------------------------
-# Section 2 (Joseph's .docx) listed authors as "First-author et al." only. Phase 1
-# over-expanded some full author lists; restore the source form so no author is
-# invented. Full lists can be added later only where independently confirmed.
-S2_AUTHORS = {
-    "s2-01": "T. Heittola et al.",
-    "s2-02": "T. Heittola et al.",
-    "s2-03": "T. Lu et al.",
-    "s2-04": "H. L. Bear et al.",
-    "s2-05": "N. Tonami et al.",
-    "s2-06": "N. Tonami et al.",
-    "s2-07": "K. Imoto et al.",
-    "s2-08": "S. Tsubaki et al.",
-    "s2-09": "T. Komatsu et al.",
-    "s2-10": "K. Nada et al.",
-    "s2-11": "H. Zhang et al.",
-    "s2-12": "D. de Waard et al.",
-    "s2-13": "J.-W. Yeow et al.",
-    "s2-14": "E.-L. Tan et al.",
-}
-
 for r in ALL:
-    if r["id"] in S2_AUTHORS:
-        r["authors"] = S2_AUTHORS[r["id"]]
+    if r["id"].startswith("s2-"):
+        r["verification"] = "unresolved"
     if r["id"] in VERIFY:
         upd = VERIFY[r["id"]]
         for k, v in upd.items():

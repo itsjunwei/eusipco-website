@@ -4,7 +4,7 @@
 
 ---
 
-## 0. Opening (Slides 1–11)
+## 0. Opening (Slides 1–10)
 - Title, presenter introductions, lab overview (Smart Nation TRANS Lab @ NTU)
 - **Framing: Hear → Understand → Reason → Act**
   - The four-stage arc: Acoustic Perception → Contextual Understanding → Context-Aware Reasoning → Purposeful Sound Intervention
@@ -18,7 +18,7 @@
 
 ---
 
-## 1. Spatial Perception — Data-Centric AI for Acoustics (Slides 12–55)
+## 1. Spatial Perception — Data-Centric AI for Acoustics (Slides 11–54)
 *Speaker: J.W. Yeow*
 
 ### 1.1 Foundations of SELD
@@ -56,7 +56,7 @@
 
 ---
 
-## 2. Contextual Understanding — From Acoustic Perception to Context-Aware Intelligence (Slides 56–79)
+## 2. Contextual Understanding — From Acoustic Perception to Context-Aware Intelligence (Slides 55–81)
 *Speaker: E.L. Tan*
 
 ### 2.1 The Three Perception Tasks
@@ -83,7 +83,7 @@
 
 ---
 
-## 3. Context-Aware Action, Part I — Active Noise Control (Slides 80–148)
+## 3. Context-Aware Action, Part I — Active Noise Control (Slides 82–150)
 *Largest technical section — organized around 4 core ANC challenges*
 
 ### 3.1 ANC Fundamentals
@@ -130,7 +130,7 @@
 
 ---
 
-## 4. Context-Aware Action, Part II — Soundscape Augmentation (Slides 149–159)
+## 4. Context-Aware Action, Part II — Soundscape Augmentation (Slides 151–160)
 - Paradigm shift: beyond silence → **positive soundscapes** (ISO 12913)
 - Sense → Analyse → Augment loop ("acoustic perfume")
 - ARAUS dataset (affective response to augmented soundscapes) + related datasets
@@ -140,7 +140,7 @@
 
 ---
 
-## 5. Towards Intelligent Sound Management (Slides 160–182)
+## 5. Towards Intelligent Sound Management (Slides 161–183)
 - AR/MR audio processing framework for hearables (sense, control, render)
 - **oPEAR**: intelligent open-ear smart glasses research thrusts
   - **(A)** Direction-Preserving ANC via FiLM-conditioned control filter estimation
@@ -151,7 +151,7 @@
 
 ---
 
-## 6. Conclusions and New Research Activities (Slides 183–186)
+## 6. Conclusions and New Research Activities (Slides 184–189)
 - **Capability Ladder for Active Sound Intervention (ASI):**
   Physical Layer → Acoustic/Spatial Features → Semantic Understanding → Context-Aware Decision → Human-Aware & Adaptive
 - Unified dual-rate framework: fast **Perceive→Act** control loop + slower **Intelligence & Adaptation** plane (ASC/SELD, human feedback, continual learning)

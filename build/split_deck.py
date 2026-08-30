@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """split_deck.py — prepare the per-presenter and full-deck slide PDFs.
 
-The tutorial deck is 186 slides across four contiguous presenter ranges. This
+The tutorial deck is 189 slides across four contiguous presenter ranges. This
 tool either splits a full-deck PDF into those ranges or merges approved section
 PDFs into one deck.
 
 Page ranges (1-based, inclusive) mirror content/meta.json → downloads:
-    intro   1–11    (all presenters)
-    yeow    12–55   (Spatial Perception — SELD)
-    tan     56–79   (Contextual Understanding)
-    gan     80–186  (remaining tutorial sections)
+    intro   1–10    (all presenters)
+    yeow    11–54   (Spatial Perception — SELD)
+    tan     55–81   (Contextual Understanding)
+    gan     82–189  (remaining tutorial sections)
 
 Output is written to a staging directory by default. Public download availability
 is controlled by content/meta.json.
@@ -33,10 +33,10 @@ except ImportError:
 
 # id -> (first_page, last_page) inclusive, 1-based
 RANGES = {
-    "intro": (1, 11),
-    "yeow": (12, 55),
-    "tan": (56, 79),
-    "gan": (80, 186),
+    "intro": (1, 10),
+    "yeow": (11, 54),
+    "tan": (55, 81),
+    "gan": (82, 189),
 }
 
 
