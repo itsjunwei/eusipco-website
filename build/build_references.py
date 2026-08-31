@@ -115,6 +115,21 @@ VERIFY = {
     "s1-32": {"verification": "web"},
     "s1-33": {"arxiv": "2406.16058", "verification": "web"},
     "s1-34": {"arxiv": "2402.01591", "verification": "web"},
+    # Contextual Understanding: URL-only audit, 2026-08-31.
+    "s2-01": {"url": "https://www.akustinenseura.fi/wp-content/uploads/2013/08/Heittola.pdf"},
+    "s2-02": {"url": "https://doi.org/10.1186/1687-4722-2013-1"},
+    "s2-03": {"url": "https://doi.org/10.1007/s00530-014-0424-7"},
+    "s2-04": {"url": "https://doi.org/10.21437/Interspeech.2019-2169"},
+    "s2-05": {"url": "https://doi.org/10.1109/WASPAA.2019.8937196"},
+    "s2-06": {"url": "https://doi.org/10.1587/transinf.2020EDP7036"},
+    "s2-07": {"url": "https://doi.org/10.1109/ICASSP40776.2020.9053912"},
+    "s2-08": {"url": "https://doi.org/10.1109/IWAENC53105.2022.9914800"},
+    "s2-09": {"url": "https://doi.org/10.1109/ICASSP40776.2020.9053702"},
+    "s2-10": {"url": "https://www.apsipa.org/proceedings/2021/pdfs/0001156.pdf"},
+    "s2-11": {"url": "https://doi.org/10.1016/j.apacoust.2024.110066"},
+    "s2-12": {"url": "https://aes.org/publications/elibrary-page/?id=22938"},
+    "s2-13": {"url": "https://arxiv.org/abs/2509.09931"},
+    "s2-14": {"url": "https://dcase.community/documents/challenge2025/technical_reports/DCASE2023_Karasin_54_t1.pdf"},
     # Sound bubbles: source list had only a Semantic Scholar link; Nature Electronics DOI confirmed.
     "s4b-05": {"doi": "10.1038/s41928-024-01276-z", "url": None, "verification": "web"},
 }
